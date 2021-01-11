@@ -16,10 +16,10 @@ const Map = () => {
               <br/>
               </span>
               
-              <p className="ment"></p>
-              <p className="ment"> 진료시간 : AM 10:00~ PM 6:30 </p>
-              <p className="ment"> 토요일 : AM 10:00 ~ PM 4:00</p>
-              <p className="ment"> 점심시간 : PM 2:00 ~ 3:00</p>
+              <p className="contactMent"></p>
+              <p className="contactMent"> 진료시간 : AM 10:00~ PM 6:30 </p>
+              <p className="contactMent"> 토요일 : AM 10:00 ~ PM 4:00</p>
+              <p className="contactMent"> 점심시간 : PM 2:00 ~ 3:00</p>
               <br/>
               <h2 className="mentTitle">
               Location:

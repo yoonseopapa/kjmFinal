@@ -9,11 +9,47 @@
 }
 
 @font-face {
+  font-family: 'Clickbluesky';
+  src: local('Clickbluesky'), url("/fonts/Clickbluesky.ttf") format('truetype');
+}
+
+@font-face {
   font-family: 'Arita-dotum-Medium';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Arita-dotum-Medium.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
+
+.aboutleft,
+.aboutright {
+  position: absolute;
+  z-index: -1;
+
+}
+.logoImage{
+  
+  width: 20%;
+  
+}
+
+.aboutleft {
+  @include media("<=phone") {
+    background: black;
+  }
+
+  background: #B3B4AF;
+  left: 0%;
+  width: 30%;
+  height: 200%;
+}
+
+.aboutright {
+  background: #191921;
+  right: 0%;
+  width: 70%;
+  height: 200%;
+}
+
 
 
 .scrolldownLeftCon {
@@ -151,6 +187,16 @@
 
 }
 
+
+.firstCardTightening{
+  box-shadow: 0px 0px 10px white;
+  width: 32%;
+  margin-top: 130%;
+  position: absolute;
+  left: 53%;
+
+}
+
 .firstCardSecond{
   box-shadow: 0px 0px 10px white;
   width: 35%;
@@ -162,38 +208,95 @@
 
 .storyAcne{
   position: absolute;
-  margin-top: 20%;
+  margin-top: 15%;
 }
+
+.storytightening{
+  position: absolute;
+  margin-top: 134%;
+  width: 52%;
+  font-family: 'Clickbluesky';
+}
+
+
+
+.story, .storyAcne span, .storytightening span{
+  width: 54.5%;
+font-size:20px;
+}
+
+
+.story h2, .storyAcne h2, .storytightening h2{
+  font-family: 'Clickbluesky';
+  font-size: 17px;
+  }
+
+  .story p, .storyAcne p, .storytightening p{
+    font-size: 15px;
+    font-family: 'Clickbluesky';
+    font-size: 34px;
+    font-weight: 900;
+    }
 
 .firstCardLaser{
   width: 23%;
   margin:10px;
 }
 
-.story{
+.storyOne{
+  
+  float: left;
+}
+.storyZero{
   position: absolute;
-  margin-top: 22%;
+  margin-top: 10%;
   float: right;
-  left: 63%;
+  left: 50%;
+  width: 50%;
 }
 
-.story, .storyAcne span{
-  width: 54.5%;
-font-size:20px;
+
+.story {
+  
+  position: absolute;
+  margin-top: 18%;
+    float: right;
+    left: 56%;
 }
 
-.story h2, .storyAcne h2{
-  font-family: 'Jua-Regular';
-  font-size: 18px;
+.story,.storyZero span, .storyAcne span{
+  font-family: 'Clickbluesky';
+  width: 100%;
+  font-size: 20px;
+}
+
+.story h2,.storyZero h2, .storyAcne h2{
+  font-family: 'Clickbluesky';
+  font-size: 17px;
   }
 
-  .story p, .storyAcne p{
-    font-size: 15px;
+  .story p,.storyZero p, .storyAcne p{
+    font-family: 'Clickbluesky';
+    font-size: 34px;
+    font-weight: 900;
     }
 
 .title h2{
   font-size: 23px;
   position: absolute;
+}
+.laserfooter{
+  .footerMain{
+    top: 680%;
+  }
+  margin-top: 240%;
+}
+
+.aboutfooter{
+  .footerMain{
+    top: 230%;
+  }
+  margin-top: 50%;
 }
 
 .aging{

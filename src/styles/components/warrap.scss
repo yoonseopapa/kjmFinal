@@ -87,7 +87,7 @@ ul {
 }
 
 .right {
-  background: #191921;
+  background: #ffffff;
   right: 0%;
   width: 70%;
 }
@@ -154,17 +154,18 @@ ul {
 
 .navg ul li {
   display: inline-block;
-  color: #fff;
+  color: black;
   text-transform: uppercase;
   letter-spacing: 3px;
-  font-size: 8px;
+  font-size: 18px;
   font-weight: 600;
   padding: 0 30px;
 }
 
 .navg .logo {
-  font-size: 18px;
+  font-size: 30px;
   letter-spacing: 0;
+  margin-left: -9%;
 }
 
 .navg .menu {
@@ -254,7 +255,7 @@ ul {
 
 .text h1 {
   font-size: 90px;
-  color:#7fffd4;
+  color:#c1b200;
   font-family: 'Raiderfont';
   text-transform: uppercase;
   // margin-left: 25%;
@@ -263,7 +264,7 @@ ul {
 .text p {
   font-size: 12px;
   letter-spacing: 3px;
-  color: #fff;
+  color: #c1b200;
   font-family: monospace;
 }
 
@@ -276,7 +277,7 @@ ul {
   font-size: 90px;
   font-family: 'Raiderfont';
   text-transform: uppercase;
-  color: aquamarine
+  color: #c1b200
   // -webkit-text-stroke: 2px #fff;
   // background-color: rgb(255, 0, 0);
 }
@@ -288,7 +289,7 @@ ul {
 }
 
 .bottomnav ul a li {
-  color: #fff;
+  color: #c1b200;
   text-transform: uppercase;
   letter-spacing: 8px;
   margin-top: 20px;

@@ -1,4 +1,7 @@
-
+@font-face {
+  font-family: 'Clickbluesky';
+  src: local('Clickbluesky'), url("/fonts/Clickbluesky.ttf") format('truetype');
+}
 
 .mapMain{
   margin-top: 13%;
@@ -31,11 +34,11 @@
   width: 30%;
   margin-right: 15%;
 }
-.ment{
+.contactMent{
   @include media("<=phone") {
     font-size: 12px;
   }
-  font-size: 15px;
+  font-size: 19px;
   letter-spacing: 5px;
 }
 
@@ -44,7 +47,7 @@
     font-size: 12px;
     letter-spacing: 1px;
   }
-  font-size: 15px;
+  font-size: 18px;
   letter-spacing: 2px;
 }
 
@@ -53,7 +56,7 @@
     font-size: 12px;
     margin-top:-3%;
   }
-  font-size: 18px;
+  font-size: 20px;
   letter-spacing: 2px;
 }
 
@@ -65,4 +68,5 @@
     top: 40%;
   }
   width: 90%;
+  font-family: Clickbluesky;
 }
