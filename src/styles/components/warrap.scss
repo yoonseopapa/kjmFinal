@@ -3,7 +3,10 @@
   font-family: 'Raiderfont';
   src: local('Raiderfont'), url("/fonts/Raiderfont.ttf") format('truetype');
 }
-
+@font-face {
+  font-family: 'Clickbluesky';
+  src: local('Clickbluesky'), url("/fonts/Clickbluesky.ttf") format('truetype');
+}
 
 * {
   color: #ffffff;
@@ -28,7 +31,8 @@
   height: 100%;
   }
   box-shadow: 0px 0px 10px black;
-  height: 500px
+  height: 120%;
+
 }
 body {
   position: absolute;
@@ -163,6 +167,7 @@ ul {
 }
 
 .navg .logo {
+  font-family: 'Clickbluesky';
   font-size: 30px;
   letter-spacing: 0;
   margin-left: -9%;
@@ -205,7 +210,6 @@ ul {
     left: 3%;
   }
   position: absolute;
-  bottom: 90px;
   left: 140px;
 }
 
