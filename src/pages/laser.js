@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import imgaLogo from "../assets/logoFinal.png";
 import imgaA from "../assets/aging.jpg";
 import imgaB from "../assets/freckles.jpg";
 import imgaC from "../assets/acne.jpg";
@@ -15,29 +16,37 @@ const Laser = () => {
   return (
 <div>
 <body>
-<div className="left"></div>
+<div className="leftPink"></div>
 <div className="right"></div>
 <nav className="navg">
       <ul>
         <NavLink to='/' exact>
-        <li class="logo">pastel clinic</li>
+        <img className="logoImage" src={imgaLogo} alt=""/>
+        <li className="logo">김정민피부과</li>
         </NavLink>
 
         <NavLink to='/aboutStory' exact>
-        <li class="profilefirst ">profile</li>
+        <li className="profilefirst ">profile</li>
         </NavLink>
 
         <NavLink to='/laser' exact>
-        <li class="laser ">laser</li>
+        <li className="laser ">laser</li>
         </NavLink>
 
         <NavLink to='/skinCare' exact>
-        <li class="location">skinCare</li>
+        <li className="skinCare">skinCare</li>
         </NavLink>
 
         <NavLink to='/treatment' exact>
-        <li class="location">Treatment</li>
+        <li className="treatment">Treatment</li>
         </NavLink>
+
+        
+        <a href="#aboutStory">
+        <li className="profile">
+          <div className="img"></div>
+        </li>
+        </a>
       </ul>
     </nav>
     <div className="contentTitle">

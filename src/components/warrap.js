@@ -103,6 +103,12 @@ const Warrap = () => {
      <div className="contents"> 
      <div className="left1"></div>
     <div className="right1"></div>
+    <div className="left2"></div>
+    <div className="right2"></div>
+    <div className="left3"></div>
+    <div className="right3"></div>
+    <div className="left4"></div>
+    <div className="right4"></div>
          <Service/>
      </div>   
      <Map/>

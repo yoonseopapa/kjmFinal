@@ -32,6 +32,7 @@
   }
   box-shadow: 0px 0px 10px black;
   height: 120%;
+  top: 8%;
 
 }
 body {
@@ -71,6 +72,56 @@ ul {
 
 }
 
+.womanPower1{
+  width: 50%;
+  height: 20vh;
+  margin-top: -3%;
+  left: 50%;
+  background-color: black;
+  position: absolute;
+}
+
+ 
+      .womanPower2{
+        width: 50%;
+        height: 20vh;
+        margin-top: 8%;
+        left: 50%;
+        background-color: rgb(255, 0, 0);
+        position: absolute;
+      }
+
+
+.leftPink{
+  background-color: #f1c8c8;
+  left: 0%;
+  width: 30%;
+  position: absolute;
+  height: 700%;
+  z-index: -1;
+}
+
+.leftBlue{
+  background-color: #accffb;
+  left: 0%;
+  width: 30%;
+  position: absolute;
+  height: 700%;
+  z-index: -1;
+}
+
+.leftGreen{
+  background-color: #fff78e;
+  left: 0%;
+  width: 30%;
+  position: absolute;
+  height: 700%;
+  z-index: -1;
+}
+
+
+
+
 .left,
 .right {
   
@@ -85,7 +136,7 @@ ul {
     background: black;
   }
 
-  background: #B3B4AF;
+  background: #ffffff;
   left: 0%;
   width: 30%;
 }
@@ -96,30 +147,88 @@ ul {
   width: 70%;
 }
 
+
 .left1,
 .right1 {
   position: absolute;
-  height: 200%;
+  height: 100%;
   z-index: -1;
 }
 .left1 {
-  background: #B3B4AF;
+  background: #ffffff;
   left: 0%;
   width: 70%;
 }
 
 .right1 {
-  background: #191921;
+  background: #b5a700;
   right: 0%;
   width: 30%;
 }
 
+
+.left2,
+.right2 {
+  top:310%;
+  position: absolute;
+  height: 100%;
+  z-index: -1;
+}
+.left2 {
+  background: #f1c8c8;
+  left: 0%;
+  width: 30%;
+}
+
+.right2 {
+  background: #ffffff;
+  right: 0%;
+  width: 70%;
+}
+
+.left3,
+.right3 {
+  top:410%;
+  position: absolute;
+  height: 100%;
+  z-index: -1;
+}
+.left3 {
+  background: #ffffff;
+  left: 0%;
+  width: 70%;
+}
+
+.right3 {
+  background: #accffb;
+  right: 0%;
+  width: 30%;
+}
+.left4,
+.right4 {
+  top:510%;
+  position: absolute;
+  height: 100%;
+  z-index: -1;
+}
+.left4 {
+  background: #fff78e;
+  left: 0%;
+  width: 30%;
+}
+
+.right4 {
+  background: #ffffff;
+  right: 0%;
+  width: 70%;
+}
 .navg{
   .profilefirst{
     @include media("<=phone") {
       display: none;
       }
-  }
+    }
+
   .laser{
     @include media("<=phone") {
       display: none;
@@ -156,9 +265,20 @@ ul {
   padding: 0 20px;
 }
 
+.navg1 ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  padding: 0 20px;
+}
+.carousel-indicators{
+  top:120%
+}
+
 .navg ul li {
   display: inline-block;
-  color: black;
+  color:#000000;
   text-transform: uppercase;
   letter-spacing: 3px;
   font-size: 18px;
@@ -167,8 +287,27 @@ ul {
 }
 
 .navg .logo {
+  color: #000000;
   font-family: 'Clickbluesky';
-  font-size: 30px;
+  font-size: 22px;
+  letter-spacing: 0;
+  margin-left: -9%;
+}
+
+.navg1 ul li {
+  display: inline-block;
+  color:#ffffff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 0 30px;
+}
+
+.navg1 .logo {
+  color: #ffffff;
+  font-family: 'Clickbluesky';
+  font-size: 22px;
   letter-spacing: 0;
   margin-left: -9%;
 }
@@ -259,41 +398,41 @@ ul {
 
 .text h1 {
   font-size: 90px;
-  color:#c1b200;
+  color:#cccccc;
   font-family: 'Raiderfont';
   text-transform: uppercase;
   // margin-left: 25%;
 }
 
 .text p {
-  font-size: 12px;
+  font-size: 18px;
   letter-spacing: 3px;
-  color: #c1b200;
-  font-family: monospace;
+  color: #000000;
+  font-family: emoji;
 }
 
 .name {
   // background-image: url("/assets/logo.png");
   position: absolute;
-  top:  55%;
+  top:  65%;
   left: 0px;
   transform: translateY(-50%);
   font-size: 90px;
   font-family: 'Raiderfont';
   text-transform: uppercase;
-  color: #c1b200
+  color: #5f5f5f
   // -webkit-text-stroke: 2px #fff;
   // background-color: rgb(255, 0, 0);
 }
 
 .bottomnav {
   position: absolute;
-  bottom: 13%;
+  bottom: 5%;
   right: 2%;
 }
 
 .bottomnav ul a li {
-  color: #c1b200;
+  color: #000000;
   text-transform: uppercase;
   letter-spacing: 8px;
   margin-top: 20px;
@@ -340,7 +479,7 @@ ul {
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 5px;
-
+  color:black;
   position: absolute;
   bottom: 110px;
   left: -60px;
@@ -349,7 +488,7 @@ ul {
 
 .scrolldown::before {
   content: "";
-  border: 1px solid #fff;
+  border: 1px solid rgb(0, 0, 0);
   width: 100px;
   margin: 0 20px 0 0;
   transform: translateY(-3px);

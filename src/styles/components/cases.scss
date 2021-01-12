@@ -14,6 +14,11 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Clickbluesky';
+  src: local('Clickbluesky'), url("/fonts/Clickbluesky.ttf") format('truetype');
+}
+
 .cases {
   .rec-pagination{
     display: none;
@@ -54,7 +59,7 @@
       align-items: center;
       justify-content: center;
       svg {
-        color: white;
+        color: rgb(255, 255, 255);
         height: 28px;
         width: 28px;
       }
@@ -74,7 +79,7 @@
       }
          
       position: relative;
-      background: rgb(0, 0, 0);
+      background: rgb(255, 255, 255);
       height: 57%;
       cursor: pointer;
       &:hover {
@@ -93,12 +98,12 @@
         justify-content:space-evenly;
         padding: 9%;
         border:solid;
-        border-color:#ffffff23;
+        border-color:#00000023;
         border-top-width: 0px;
         box-sizing: border-box;
         z-index: 1;
         position: relative;
-        box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+        box-shadow: 0px 0px 10px 0px rgb(255, 255, 255);
         @include media("<=tablet") {
           width: 100%;
         }
@@ -107,9 +112,10 @@
           justify-content:space-evenly;
         }
         span {
+          font-family: 'Clickbluesky';
           margin-top: 70%;
-          font-size: 1.2rem;
-          color: rgb(197, 196, 196);
+          font-size: 1.5rem;
+          color: rgb(255, 255, 255);
           font-weight: 600;
           @include media("<=desktop", ">tablet") {
             font-size: 1.0rem;
@@ -121,14 +127,15 @@
           }
         }
         h2 {
-          font-size: 0.9rem;
+          font-family: 'Clickbluesky';
+          font-size: 1.2rem;
           line-height: 1.5rem;
           width: 100%;
           margin-top: 1px;
           color: rgb(255, 255, 255);
           font-weight: 400;
           @include media("<=desktop", ">tablet") {
-            font-size: 2rem;
+            font-size: 3rem;
             line-height: 2.4rem;
           }
           @include media("<=phone") {
@@ -136,12 +143,20 @@
           }
         }
       }
+      .cardMent{
+        border: solid 2px;
+        height: 70%;
+        background-color: #0a0a0ab0;
+        text-align: center;
+      }
+     
+    
 
       .case-image {
         top: 0;
         left: 0;
         width: 100%;
-        height: 40%;
+        height: 100%;
         overflow: hidden;
         position: absolute;
         // opacity: 0.65;

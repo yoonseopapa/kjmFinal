@@ -1,5 +1,6 @@
 import React from "react";
 import imgaA from "../assets/profile.jpg";
+import imgaLogo from "../assets/logoFinal.png";
 import { NavLink } from "react-router-dom";
 import Map from "../pages/map";
 import Footer from "../pages/footer";
@@ -12,10 +13,11 @@ const AboutStroy = () => {
 <body>
 <div className="aboutleft"></div>
 <div className="aboutright"></div>
-<nav className="navg">
+<nav className="navg1">
       <ul>
         <NavLink to='/' exact>
-        <li className="logo">pastel clinic</li>
+        <img className="logoImage" src={imgaLogo} alt=""/>
+        <li className="logo">김정민피부과</li>
         </NavLink>
 
         <NavLink to='/aboutStory' exact>
@@ -27,17 +29,17 @@ const AboutStroy = () => {
         </NavLink>
 
         <NavLink to='/skinCare' exact>
-        <li className="location">skinCare</li>
+        <li className="skinCare">skinCare</li>
         </NavLink>
 
         <NavLink to='/treatment' exact>
-        <li className="location">Treatment</li>
+        <li className="treatment">Treatment</li>
         </NavLink>
 
         
         <a href="#aboutStory">
         <li className="profile">
-          <div class="img"></div>
+          <div className="img"></div>
         </li>
         </a>
       </ul>

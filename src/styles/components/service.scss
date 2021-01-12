@@ -53,10 +53,12 @@ html {
     width: 100%;
   }
   width: 61.44680851063829%;
+  
 }
 .ipsGrid > [class*="ipsGrid_span"] {
   float: left;
   margin-left: 2%;
+  
 }
 .ipsGrid > [class*="ipsGrid_span"]:first-child {
   margin-left: 0;
@@ -64,6 +66,15 @@ html {
 .feature {
   display: flex;
   align-items: center;
+}
+
+
+.ipsGrid_span7 p{
+  color:black;
+}
+
+.ipsGrid_span7 h2,.ipsGrid_span7 strong{
+  color:black;
 }
 
 .ipsType_left1{
@@ -178,7 +189,7 @@ html {
 
   width: 88%;
   margin-left:10%;
-  margin-top: 40%;
+  margin-top: 90%;
   margin-bottom: 30%;
   border: 1px solid #cccccc;
   overflow: hidden;
@@ -203,7 +214,7 @@ html {
 
   width: 88%;
   margin-left:160%;
-  margin-top: 40%;
+  margin-top: 60%;
   margin-bottom: 30%;
   border: 1px solid #cccccc;
   overflow: hidden;
@@ -302,11 +313,12 @@ img {
   letter-spacing: 5px;
   position: absolute;
   transform: rotate(-90deg);
+  color:black;
 }
 
 .scrolldownRight::before {
   content: "";
-  border: 1px solid #fff;
+  border: 1px solid rgb(0, 0, 0);
   width: 100px;
   margin: 0 20px 0 0;
   transform: translateY(-3px);

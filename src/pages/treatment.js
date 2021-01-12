@@ -1,21 +1,25 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import imgaLogo from "../assets/logoFinal.png";
 import imgaA from "../assets/botox.jpg";
 import imgaB from "../assets/thread.jpg";
 import imgaC from "../assets/hairloss.jpg";
 import playerA from "../assets/skinCare.mp4";
 import classes from "../styles/components/BackgroundVideo.scss";
+import Map from "../pages/map";
+import Footer from "../pages/footer";
 
 const SkinCare = () => {
   return (
 <div>
 <body>
-<div className="left"></div>
+<div className="leftGreen"></div>
 <div className="right"></div>
 <nav className="navg">
       <ul>
         <NavLink to='/' exact>
-        <li className="logo">pastel clinic</li>
+        <img className="logoImage" src={imgaLogo} alt=""/>
+        <li className="logo">김정민피부과</li>
         </NavLink>
 
         <NavLink to='/aboutStory' exact>
@@ -27,12 +31,19 @@ const SkinCare = () => {
         </NavLink>
 
         <NavLink to='/skinCare' exact>
-        <li className="location">skinCare</li>
+        <li className="skinCare">skinCare</li>
         </NavLink>
 
         <NavLink to='/treatment' exact>
-        <li className="location">Treatment</li>
+        <li className="treatment">Treatment</li>
         </NavLink>
+
+        
+        <a href="#aboutStory">
+        <li className="profile">
+          <div className="img"></div>
+        </li>
+        </a>
       </ul>
     </nav>
     <div className="contentTitle">
@@ -93,6 +104,10 @@ const SkinCare = () => {
           </div>
           </div>
     </div>
+    <div className="laserfooter">
+<Map/>
+<Footer/>
+</div>
 </body>
 </div>
   );
