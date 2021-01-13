@@ -7,7 +7,7 @@ import Service from "../components/service"
 import Map from "../pages/map";
 import Footer from "../pages/footer";
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import flower from "../assets/flowers-5535925_1920.png";
 
 const Warrap = () => {
 
@@ -109,8 +109,14 @@ const Warrap = () => {
     <div className="right3"></div>
     <div className="left4"></div>
     <div className="right4"></div>
-    <div className="left5"></div>
+    <div className="left5">
+      <div className="flower">
+          <img src={flower}></img> 
+      </div>
+    </div>
     <div className="right5"></div>
+    <div className="left6"></div>
+    <div className="right6"></div>
          <Service/>
      </div>   
      <Map/>

@@ -95,29 +95,38 @@ ul {
 
 
 .leftPink{
-  background-color: #f1c8c8;
-  left: 0%;
-  width: 30%;
-  position: absolute;
-  height: 700%;
-  z-index: -1;
+ // background-color: #accffb;
+ background-size: 100% 100%;
+ background-image: url("/assets/green-4500359_1920.jpg");
+ top:30%;
+ left: -8%;
+ width: 50%;
+ position: absolute;
+ height: 70%;
+ z-index: -1;
 }
 
 .leftBlue{
-  background-color: #accffb;
-  left: 0%;
-  width: 30%;
+  // background-color: #accffb;
+  background-size: 100% 100%;
+  background-image: url("/assets/flower-5498315_1920.png");
+  top:30%;
+  left: 2%;
+  width: 40%;
   position: absolute;
-  height: 700%;
+  height: 70%;
   z-index: -1;
 }
 
 .leftGreen{
-  background-color: #fff78e;
-  left: 0%;
-  width: 30%;
+  // background-color: #accffb;
+  background-size: 100% 100%;
+  background-image: url("/assets/branch-309208.png");
+  top:30%;
+  left: -10%;
+  width: 40%;
   position: absolute;
-  height: 700%;
+  height: 70%;
   z-index: -1;
 }
 
@@ -161,12 +170,12 @@ ul {
 
 .right1 {
   // background: #b5a700;
-  left: 70%;
-  top:240%;
-  height: 50%;
+  left: -9%;
+  top:2%;
+  height: 40%;
   width: 30%;
   background-size: 100% 100%;
-  background-image: url("/assets/roses-5455834_1920.png");
+  background-image: url("/assets/flowers-5535925_1920.png");
 }
 
 
@@ -224,10 +233,10 @@ ul {
 }
 .left4 {
   // background: #fff78e;
-  left: 0%;
-  width: 30%;
-  top:530%;
-  height: 50%;
+  left: -4%;
+    width: 30%;
+    top: 510%;
+    height: 50%;
   background-image: url("/assets/leaves-5835601_1920.png");
   background-size: 100% 100%;
 }
@@ -252,14 +261,42 @@ ul {
 
 .right5 {
   // background: #b5a700;
-  left: 76%;
-  top:50%;
-  height: 50%;
-  width: 30%;
-  background-size: 100% 100%;
+  left: 75%;
+    top: 50%;
+    height: 50%;
+    width: 25%;
+    background-size: 120% 100%;
   background-image: url("/assets/leaves-5452659_1920.png");
 }
+.flower{
+  width: 60%;
+    position: absolute;
+    left: 82%;
+    top: 30%;
+}
 
+.left6,
+.right6 {
+  top:410%;
+  position: absolute;
+  height: 100%;
+  z-index: -1;
+}
+.left6 {
+  background: #ffffff;
+  left: 0%;
+  width: 70%;
+}
+
+.right6 {
+  // background: #accffb;
+  right: 0%;
+  width: 30%;
+  height: 50%;
+  top:610%;
+  background-size: 100% 100%;
+  background-image: url("/assets/leaves-5448646_1920.png");
+}
 .navg{
   .profilefirst{
     @include media("<=phone") {

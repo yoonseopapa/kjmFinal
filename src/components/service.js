@@ -82,7 +82,7 @@ const Service = () => {
         </p>
         </h2>
         <p className="gs_reveal"> 창문을 깨끗하게 청소하려면 겉과 속, 모두 치료가 필요합니다.<br/>피부의 근본적인 개선을 통해 건강하고 아름다운 피부를 만들 수 있습니다.
-        <div className="scrolldownRight">scroll down</div>
+        <div className="scrolldownRight1">scroll down</div>
         </p>
         </div>
        
@@ -125,7 +125,7 @@ const Service = () => {
         </p>
         </h2>
         <p className="gs_reveal"> - 개인의 특성에 맞춘 시술로 자연스러운 아름다움으로 효과를 극대화합니다.  <br/>- 보톡스, 필러, 실리프팅, 여드름 CROSS시술, 스컬트라, 리쥬란, 쥬베룩, 탈모메조치료
-        <div className="scrolldownRight">scroll down</div>
+        <div className="scrolldownRight1">scroll down</div>
         </p>
         </div>
   
@@ -153,7 +153,7 @@ const Service = () => {
         </p>
         </h2>
         <p className="gs_reveal"> - 화장품과 메이크업을 잘 아는 여의사 피부과전문의가  <br/> &nbsp;&nbsp;개개인의 다른 피부상태를 분석하여나에게 맞는 화장품을 찾고, <br/> &nbsp;&nbsp;효과가 확실히 입증된 스킨케어 프로그램으로 피부를 관리합니다. 
-        <div className="scrolldownLeft">scroll down</div>
+        <div className="scrolldownLeft1">scroll down</div>
         </p>
         </div>
       </div>
