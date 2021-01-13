@@ -71,10 +71,16 @@ html {
 
 .ipsGrid_span7 p{
   color:black;
+  font-size:20px;
 }
 
 .ipsGrid_span7 h2,.ipsGrid_span7 strong{
   color:black;
+  font-size:30px;
+}
+
+.ipsType_left2{
+  margin-top: 20%;
 }
 
 .ipsType_left1{
@@ -280,18 +286,19 @@ img {
   @include media("<=phone") {
     display: none;
     }
+  color:black;
   position: absolute;
   font-size: 10px;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 5px;
-  left: 67%;
+  left: 40%;
   transform: rotate(-90deg);
 }
 
 .scrolldownLeft::before {
   content: "";
-  border: 1px solid #fff;
+  border: 1px solid rgb(0, 0, 0);
   width: 100px;
   margin: 0 20px 0 0;
   transform: translateY(-3px);
@@ -299,6 +306,31 @@ img {
   display: inline-block;
 }
 
+.scrolldownLeft1 {
+  @include media("<=phone") {
+    display: none;
+    }
+    width:50%;
+  color:black;
+  position: absolute;
+  font-size: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  left: 40%;
+  top: 10%;
+  transform: rotate(-90deg);
+}
+
+.scrolldownLeft1::before {
+  content: "";
+  border: 1px solid rgb(0, 0, 0);
+  width: 100px;
+  margin: 0 20px 0 0;
+  transform: translateY(-3px);
+  opacity: .5;
+  display: inline-block;
+}
 
 /* SCROLLDOWN
 =========================== */

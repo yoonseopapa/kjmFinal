@@ -109,8 +109,8 @@ const Service = () => {
           <br/>
         </p>
         </h2>
-        <p className="gs_reveal"> 피부과학으로 피부질환을 치료하는 전문성과 경험이 다릅니다.
-        <div className="scrolldownLeft">scroll down</div>
+        <p className="gs_reveal"> 피부과학으로 피부질환을 치료하는 <br/>전문성과 경험이 다릅니다.
+        <div className="scrolldownLeft1">scroll down</div>
         </p>
         </div>
       </div>
