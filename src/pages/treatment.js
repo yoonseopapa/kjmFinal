@@ -74,15 +74,17 @@ const SkinCare = () => {
     <div className="features aging">
           <div className="leftContents">
             <img className="firstCardContents" src={imgaA} alt=""/>
-            <img className="firstCardSecond" src={imgaB} alt=""/>
+     
             <div className="story">
-        <h2 >보톡스는 잘 사용하면 주름 뿐만아니라 얼굴 윤곽개선의
-        <br/> 효과도 기대 할 수 있습니다. 뿐만아니라 승모근, 허벅지, 종아리 등의 
-        <br/> 비대해진 근육의 감소에도효과적인 시술입니다. 
-        <br/>
-        <br/>또한 확실하게 안전성이 입증된 종류의 실리프팅과 
-        <br/>피부에 힘을 실어줄수 있는 스킨부스터의 사용은 외부물질을 
-        <br/>주입하는 것보다 좋은 치료가 될 수 있습니다. </h2>
+            <p>BOTOX & DERMOTOXIN</p>   
+        <p>보톡스와 더모톡신</p>   
+        <h2 >주름Wrinkle ∙ 윤곽개선Face contour & 더모톡신 Dermotoxin
+        <br/>시술자의 경험과 섬세함에 따라 결과차이가 많이 날수 있는 가성비가 좋은
+        <br/>안티에이징의 기본 치치료라고 생각합니다. 적절한 용량을 적당한 위치에
+        <br/>잘 놓는다면, 주름뿐만 아니라 얼굴의 윤곽개선, 모공이나 흉터의 개선 등의
+        <br/>다양한 효과를 낼 수 있습니다. 얼굴뿐만 아니라 승모근, 허벅지, 종아리의 
+        <br/>비대해진 근육감소와 편두통의 치료에도 응용 가능합니다.
+        </h2>
         <br/>
         </div>
         <div>
@@ -93,17 +95,48 @@ const SkinCare = () => {
     <div className="features acne">
           <div className="rightContents">
             <img className="firstCardAcne" src={imgaC} alt=""/>
-            <div className="storyAcne">
-        <h2 > 탈모 환자의 대다수가 피부과가 아닌 곳에서 치료를 받고 있는 경우가 
-        <br/>많습니다. FDA에서 승인된 안전하고 효과적인 약물치료와 두피스케일링, 
-        <br/>메조테라피 등을 섬세하고 꼼꼼한 여의사 원장님과 숙련된 두피관리사에게 
-        <br/>직접 관리받으실 수 있습니다. </h2>
+            <div className="storyAcneTr">
+            <p>BRIGHTENING LIFTING</p>   
+        <h2>히알루론산 Hyaluronic acid<br/>리쥬란힐러 PDRN polydeoxyribonucleotide<br/>쥬베룩 PLA poly D, L-lactide </h2>   
+        <h2 >촉촉한 피부로 개선시켜 주는 시술입니다. 섬세하고 정확하게, 피부에 주입하는 것은
+        <br/>기계를 통해 자동식으로 피부에 주입하는 것보다 장점이 많고, 시술자의 숙련된 스킬
+        <br/>과 경험에 따라 결과의 차이도 경험할 수 있습니다. 
+        <br/>리쥬란힐러는 PDRN(polydeoxyribonucleotide)성분으로 우리 몸의 DNA합성을 도와주
+        <br/>는 역할로, 피부의 자가 치유능력을 활성화시키고, 피부 속 진피층의 환경을 개선하여
+        <br/>노화로 인한 다양한문제인 주름이나 모공, 각질, 탄력저하 등이 복합적으로 개선되는  
+        <br/>효과를 보이게 됩니다.쥬베룩(Jeuvelook)은 피부세포의 근본적인 재생을 도와 피부 속
+        <br/>부터 건강하게 활성화를 유도하여 젊고 건강한 피부로 되돌려주는 새로운 개념의 콜라겐
+        <br/>부스터입니다. 생분해성 고분자인 PLA(Poly D, L-lactide) 미세입자와 히알루론산을 
+        <br/>결합한 자가콜라겐재생주사로 잔주름, 모공개선, 피부 피부보습 등 시간이 지날수록오
+        <br/>랫동안 자연스럽게 유지할 수 있습니다. 
+        </h2>
         </div>
         
         <div>
           </div>
           </div>
     </div>
+
+    <div className="features lifting">
+          <div className="leftContents">
+            <img className="firstCardSecond" src={imgaB} alt=""/>
+            <div className="story">
+            <p>BOTOX & DERMOTOXIN</p>   
+        <p>보톡스와 더모톡신</p>   
+        <h2 >주름Wrinkle ∙ 윤곽개선Face contour & 더모톡신 Dermotoxin
+        <br/>시술자의 경험과 섬세함에 따라 결과차이가 많이 날수 있는 가성비가 좋은
+        <br/>안티에이징의 기본 치치료라고 생각합니다. 적절한 용량을 적당한 위치에
+        <br/>잘 놓는다면, 주름뿐만 아니라 얼굴의 윤곽개선, 모공이나 흉터의 개선 등의
+        <br/>다양한 효과를 낼 수 있습니다. 얼굴뿐만 아니라 승모근, 허벅지, 종아리의 
+        <br/>비대해진 근육감소와 편두통의 치료에도 응용 가능합니다.
+        </h2>
+        <br/>
+        </div>
+        <div>
+          </div>
+          </div>
+    </div>
+
     <div className="laserfooter">
 <Map/>
 <Footer/>

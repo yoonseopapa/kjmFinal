@@ -8,6 +8,7 @@ import Map from "../pages/map";
 import Footer from "../pages/footer";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import flower from "../assets/flowers-5535925_1920.png";
+import flowerMain from "../assets/autumn-leaves-5386496_1920.png";
 
 const Warrap = () => {
 
@@ -117,6 +118,9 @@ const Warrap = () => {
     <div className="right5"></div>
     <div className="left6"></div>
     <div className="right6"></div>
+    <div className="flowerMain">
+          <img src={flowerMain}></img> 
+      </div>
          <Service/>
      </div>   
      <Map/>

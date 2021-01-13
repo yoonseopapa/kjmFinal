@@ -186,6 +186,11 @@
   left: 53%;
 
 }
+.lifting{
+  position: absolute;
+  width: 100%;
+  top: 360%;
+}
 
 
 .firstCardTightening{
@@ -200,8 +205,8 @@
 .firstCardSecond{
   box-shadow: 0px 0px 10px white;
   width: 35%;
-  margin-top:10%;
-  left: 25%;
+  margin-top:16%;
+  left: 15%;
   position: absolute;
 }
 
@@ -212,6 +217,11 @@
   margin-top: 15%;
 }
 
+.storyAcneTr{
+  left: 5%;
+  position: absolute;
+  margin-top: 10%;
+}
 .storytightening{
   position: absolute;
   margin-top: 134%;
@@ -221,20 +231,20 @@
 
 
 
-.story, .storyAcne span, .storytightening span{
+.story, .storyAcne span,.storyAcneTr span, .storytightening span{
   width: 54.5%;
 font-size:20px;
 color:black;
 }
 
 
-.story h2, .storyAcne h2, .storytightening h2{
+.story h2, .storyAcne h2,.storyAcneTr h2, .storytightening h2{
   font-family: 'Clickbluesky';
   font-size: 17px;
   color:black;
   }
 
-  .story p, .storyAcne p, .storytightening p{
+  .story p, .storyAcne p,.storyAcneTr p, .storytightening p{
     font-size: 15px;
     font-family: 'Clickbluesky';
     font-size: 34px;
