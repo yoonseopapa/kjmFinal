@@ -27,9 +27,10 @@
 
 }
 .logoImage{
-  
-  width: 17%;
-  
+  width: 20%;
+}
+.mapImage{
+  width: 100%;
 }
 
 .aboutleft {
@@ -37,14 +38,14 @@
     background: black;
   }
 
-  background: #acaaa3;
+  background: #ffffff;
   left: 0%;
   width: 30%;
   height: 200%;
 }
 
 .aboutright {
-  background: #191921;
+  background: #ffffff;
   right: 0%;
   width: 70%;
   height: 200%;
@@ -175,7 +176,6 @@
   margin-left: 15%;
   margin-top: 10%;
   position: absolute;
-  box-shadow: 0px 0px 10px rgb(0, 0, 0);
 }
 
 .firstCardAcne{
@@ -259,6 +259,7 @@ color:black;
 
 .storyOne{
   
+  padding-right: 70px;
   float: left;
 }
 .storyZero{
@@ -267,6 +268,14 @@ color:black;
   float: right;
   left: 50%;
   width: 50%;
+}
+
+.storyZero strong{
+ position: relative;
+font:inherit;
+vertical-align: baseline;
+color: #252525;
+font-size: 33px;
 }
 
 
@@ -279,20 +288,50 @@ color:black;
 }
 
 .story,.storyZero span, .storyAcne span{
-  font-family: 'Clickbluesky';
-  width: 60%;
-  font-size: 20px;
+    width: 60%;
+    font-size: 18px;
+    color: #252525;
+    font: inherit;
 }
 
-.story h2,.storyZero h2, .storyAcne h2{
-  font-family: 'Clickbluesky';
-  font-size: 17px;
+.story h2,.storyAcne h2{
+  font-size: 15px;
+  color: #6a6a6a;
+  font: inherit;
+  line-height: 26px;
+  }
+  .storyZero h2{
+    font-size: 15px;
+    color: #6a6a6a;
+    font: inherit;
+    line-height: 26px;
   }
 
-  .story p,.storyZero p, .storyAcne p{
+
+
+  .storyZero h3{
+    font-size: 15px;
+  color: #6a6a6a;
+  font: inherit;
+  line-height: 26px;
+  }
+
+  .story p, .storyAcne p{
     font-family: 'Clickbluesky';
-    font-size: 34px;
-    font-weight: 900;
+    font-size: 33px;
+    color: #666;
+    font: inherit;
+    vertical-align: baseline;
+    }
+
+
+ 
+
+    .storyZero p{
+      margin-bottom: 0rem;
+    color: #666;
+    vertical-align: baseline;
+    margin-top: 3rem;
     }
 
 .title h2{
@@ -308,7 +347,7 @@ color:black;
 
 .aboutfooter{
   .footerMain{
-    top: 230%;
+    top: 198%;
   }
   margin-top: 50%;
 }
