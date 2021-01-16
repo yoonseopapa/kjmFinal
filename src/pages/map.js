@@ -1,6 +1,6 @@
 import React from "react";
 import MapContainer from "../pages/mapContainer";
-import imgaB from "../assets/MAP1.png";
+import imgaB from "../assets/mapDesign.png";
 
 const Map = () => {
   return (
