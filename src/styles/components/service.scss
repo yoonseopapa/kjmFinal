@@ -70,13 +70,18 @@ html {
 
 
 .ipsGrid_span7 p{
-  color:black;
-  font-size:20px;
+  font-family: "Spoqa Han Sans Bold";
+  font-size: 17px;
+  color: #252525;
+  line-height: 1.7;
+  vertical-align: baseline;
 }
 
 .ipsGrid_span7 h2,.ipsGrid_span7 strong{
-  color:black;
-  font-size:30px;
+  font-family: "Spoqa Han Sans Bold";
+  font-size: 28px;
+  color: #252525;
+  vertical-align: baseline;
 }
 
 .ipsType_left2{
@@ -114,7 +119,7 @@ html {
 
 .ipsType_left3{
   @include media("<=phone") {
-    top: 775%;
+    top: 795%;
     width: 100%;
     position: absolute;
 
@@ -125,7 +130,7 @@ html {
 
 .ipsType_right2{
   @include media("<=phone") {
-    top:580%;
+    top:610%;
     width: 100%;
     position: absolute;
   }
@@ -143,16 +148,15 @@ html {
   margin-bottom: 30%;
   overflow: hidden;
   box-shadow: 1px 1px 5px 1px #CCCCCC;
-  transition: 0.3s;
   }
 
   width: 88%;
   margin-left:10%;
   margin-top: 40%;
   margin-bottom: 30%;
-  border: 1px solid #cccccc;
+  // border: 1px solid #cccccc;
   overflow: hidden;
-  box-shadow: 1px 1px 5px 1px #CCCCCC;
+  // box-shadow: 1px 1px 5px 1px #CCCCCC;
   transition: 0.3s;
 }
 
@@ -165,7 +169,6 @@ html {
   margin-bottom: 30%;
   overflow: hidden;
   box-shadow: 1px 1px 5px 1px #CCCCCC;
-  transition: 0.3s;
   }
 
 
@@ -189,7 +192,6 @@ html {
   margin-bottom: 30%;
   overflow: hidden;
   box-shadow: 1px 1px 5px 1px #CCCCCC;
-  transition: 0.3s;
   }
 
 
@@ -204,6 +206,10 @@ html {
   transition: 0.3s;
 }
 
+.card1 img, .card2 img,.card3 img,.card4 img,.card5 img,.card6 img{
+  width: 100%;
+}
+
 
 .card4 {
   @include media("<=phone") {
@@ -214,7 +220,6 @@ html {
   margin-bottom: 30%;
   overflow: hidden;
   box-shadow: 1px 1px 5px 1px #CCCCCC;
-  transition: 0.3s;
   }
 
 
@@ -239,7 +244,6 @@ html {
   margin-bottom: 30%;
   overflow: hidden;
   box-shadow: 1px 1px 5px 1px #CCCCCC;
-  transition: 0.3s;
   }
 
 
@@ -293,7 +297,7 @@ img {
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 5px;
-  left: 40%;
+  left: 53%;
   transform: rotate(-90deg);
 }
 
@@ -318,8 +322,8 @@ img {
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 5px;
-  left: 40%;
-  top: 10%;
+  left: 33%;
+  top: 420%;
   transform: rotate(-90deg);
 }
 

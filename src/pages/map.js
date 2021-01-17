@@ -19,21 +19,19 @@ const Map = () => {
               <p className="contactMent"></p>
 
               <h2 className="mentTitle">
-              Location:
+              LOCATION:
               </h2>
               <p className="ment"></p>
               <p className="mentAddr">
-              (지번) 서울시 서초구 서초2동 1336-1, 서초리더스원상가 305호
-              <br/>
-	            <br/>(도로명) 서울시 서초구 서운로 62 -1, 서초 리더스원상가 305호
+	            <br/>(도로명) 서울시 서초구 사임당로 158, 래미안리더스원상가 3층
               </p>
               <h2 className="mentTitle">
               <br/>
-              Tel : 010-2222-2222
+              TEL : 02-6953-1212
               </h2>
               <h2 className="mentTitle">
               <br/>
-              Fax : 02-888-8888
+              Fax : 02-6953-5566
               </h2>
               <h2 className="mentTitle">
               <br/>

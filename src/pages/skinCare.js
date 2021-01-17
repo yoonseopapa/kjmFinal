@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import imgaLogo from "../assets/logoFinal.png";
+import imgaLogo from "../assets/kjmLogo.png";
 import imgaA from "../assets/skinCare.jpg";
 import imgaB from "../assets/ice.jpg";
 import imgaC from "../assets/head-min.jpg";
@@ -10,6 +10,7 @@ import Map from "../pages/map";
 import Footer from "../pages/footer";
 
 const SkinCare = () => {
+  window.scrollTo(0, 0) 
   return (
 <div>
 <body>
@@ -19,7 +20,7 @@ const SkinCare = () => {
       <ul>
         <NavLink to='/' exact>
         <img className="logoImage" src={imgaLogo} alt=""/>
-        <li className="logo">김정민피부과</li>
+        {/* <li className="logo">김정민피부과</li> */}
         </NavLink>
 
         <NavLink to='/aboutStory' exact>
@@ -52,7 +53,7 @@ const SkinCare = () => {
         <div className="scrolldownLeftCon">scroll down</div>
     <div className="gununTitle">
     <div className="contentStroy">
-        <p> 파스텔만의 피부관리</p>
+        <p> JM파스텔피부과만의 피부관리</p>
         <h1> 치료 Cure</h1>
         <h3>근본적인 치료가 필요합니다.</h3>
         <h2 >ㅡㅡㅡ

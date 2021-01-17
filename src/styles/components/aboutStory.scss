@@ -27,7 +27,7 @@
 
 }
 .logoImage{
-  width: 20%;
+  width: 70%;
 }
 .mapImage{
   width: 100%;
@@ -165,9 +165,7 @@
 .firstCardContents{
   width: 39%;
   margin-left: 10%;
-  margin-top: 15%;
   position: absolute;
-  box-shadow: 0px 0px 10px rgb(0, 0, 0);
   z-index: 1;
 }
 
@@ -230,6 +228,65 @@
 }
 
 
+.storyCombination{
+  position: absolute;
+  margin-top: 13%;
+    float: right;
+    left: 56%;
+}
+
+.storyCombination span{
+  width: 54.5%;
+font-size:20px;
+color:#252525;
+}
+
+
+.storyCombination h2{
+  font-size: 16px;
+  color:#6a6a6a;
+  line-height: 1.7;
+  font:inherit;
+  vertical-align: baseline;
+  }
+
+  .storyCombination p{
+    font-family: "Spoqa Han Sans Bold";
+    font-size: 15px;
+    font-size: 28px;
+    color: #252525;
+    vertical-align: baseline;
+    }
+
+
+    .storyAcnePigment{
+      left: 5%;
+      position: absolute;
+      margin-top: 15%;
+    }
+
+
+    .storyAcnePigment span{
+      width: 54.5%;
+    font-size:20px;
+    color:black;
+    }
+
+    .storyAcnePigment h2{
+        font-family: "Spoqa Han Sans Bold";
+      font-size: 16px;
+      color:#6a6a6a;
+      line-height: 1.7;
+      vertical-align: baseline;
+      }
+
+      .storyAcnePigment p{
+        font-family: "Spoqa Han Sans Bold";
+        font-size: 15px;
+        font-size: 28px;
+        color: #252525;
+        vertical-align: baseline;
+        }
 
 .story, .storyAcne span,.storyAcneTr span, .storytightening span{
   width: 54.5%;
@@ -239,21 +296,27 @@ color:black;
 
 
 .story h2, .storyAcne h2,.storyAcneTr h2, .storytightening h2{
-  font-family: 'Clickbluesky';
-  font-size: 17px;
-  color:black;
+  font-size: 16px;
+  color:#6a6a6a;
+  line-height: 1.7;
+  vertical-align: baseline;
   }
 
   .story p, .storyAcne p,.storyAcneTr p, .storytightening p{
+    font-family: "Spoqa Han Sans Bold";
     font-size: 15px;
-    font-family: 'Clickbluesky';
-    font-size: 34px;
-    font-weight: 900;
-    color:black;
+    font-size: 28px;
+    color: #252525;
+    vertical-align: baseline;
     }
 
 .firstCardLaser{
   width: 23%;
+  margin:10px;
+}
+
+.firstCardLaser1{
+  width: 12%;
   margin:10px;
 }
 
@@ -282,7 +345,7 @@ font-size: 33px;
 .story {
   
   position: absolute;
-  margin-top: 18%;
+  margin-top: 8%;
     float: right;
     left: 56%;
 }
@@ -291,20 +354,22 @@ font-size: 33px;
     width: 60%;
     font-size: 18px;
     color: #252525;
-    font: inherit;
+
 }
 
 .story h2,.storyAcne h2{
-  font-size: 15px;
-  color: #6a6a6a;
-  font: inherit;
-  line-height: 26px;
+  font-family: "Spoqa Han Sans Bold";
+  font-size: 16px;
+  color:#6a6a6a;
+  line-height: 1.7;
+  vertical-align: baseline;
   }
   .storyZero h2{
-    font-size: 15px;
-    color: #6a6a6a;
-    font: inherit;
-    line-height: 26px;
+    font-family: "Spoqa Han Sans Bold";
+    font-size: 16px;
+    color:#6a6a6a;
+    line-height: 1.7;
+    vertical-align: baseline;
   }
 
 
@@ -317,10 +382,10 @@ font-size: 33px;
   }
 
   .story p, .storyAcne p{
-    font-family: 'Clickbluesky';
-    font-size: 33px;
-    color: #666;
-    font: inherit;
+    font-family: "Spoqa Han Sans Bold";
+    font-size: 15px;
+    font-size: 28px;
+    color: #252525;
     vertical-align: baseline;
     }
 
@@ -328,10 +393,13 @@ font-size: 33px;
  
 
     .storyZero p{
+      font-family: "Spoqa Han Sans Bold";
+      font-size: 15px;
+      font-size: 28px;
+      color: #252525;
+      vertical-align: baseline;
       margin-bottom: 0rem;
-    color: #666;
-    vertical-align: baseline;
-    margin-top: 3rem;
+    margin-top: 1rem;
     }
 
 .title h2{
@@ -340,14 +408,25 @@ font-size: 33px;
 }
 .laserfooter{
   .footerMain{
-    top: 680%;
+    top: 695%;
   }
   margin-top: 240%;
 }
 
+.firstMainfooter{
+  
+  .footerMain{
+    @include media("<=phone") {
+      top: 690%;
+      height: 40%;
+    }
+    top: 825%;
+  }
+}
+
 .aboutfooter{
   .footerMain{
-    top: 198%;
+    top: 210%;
   }
   margin-top: 50%;
 }
@@ -361,12 +440,30 @@ font-size: 33px;
   // background-color: rgba(0, 0, 0, 0.315);
 }
 
+.pirceContents{
+  position:absolute;
+  width: 50%;
+  left: 25%;
+}
+
 
 .marchine{
-  left: 6%;
+  left: 15%;
   width: 90%;
   position: absolute;
-  top: 163%;
+  top: 143%;
+}
+.marchineTitle{
+  left: 35%;
+  width: 90%;
+  position: absolute;
+  top: 150%;
+}
+.marchineTitle p{
+  font-family: "Spoqa Han Sans Bold";
+  font-size: 35px;
+  color: #252525;
+  vertical-align: baseline;
 }
 
 .freckles{

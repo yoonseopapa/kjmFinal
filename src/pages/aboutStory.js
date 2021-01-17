@@ -1,13 +1,13 @@
 import React from "react";
 import imgaA from "../assets/profile.jpg";
-import imgaLogo from "../assets/logoFinal.png";
+import imgaLogo from "../assets/kjmLogo.png";
 import { NavLink } from "react-router-dom";
 import Map from "../pages/map";
 import Footer from "../pages/footer";
 
 
 const AboutStroy = () => {
-
+  window.scrollTo(0, 0) 
   return (
 <div>
 <body>
@@ -17,7 +17,7 @@ const AboutStroy = () => {
       <ul>
         <NavLink to='/' exact>
         <img className="logoImage" src={imgaLogo} alt=""/>
-        <li className="logo">김정민피부과</li>
+        {/* <li className="logo">김정민피부과</li> */}
         </NavLink>
 
         <NavLink to='/aboutStory' exact>

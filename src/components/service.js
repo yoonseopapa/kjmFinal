@@ -1,11 +1,13 @@
 import React from "react";
 import gsap from "gsap";
+import { NavLink } from "react-router-dom";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import imgaA from "../assets/profile.jpg";
 import imgaB from "../assets/laser.jpg";
 import imgaC from "../assets/disease.jpg";
 import imgaD from "../assets/satisfaction.jpg";
 import imgaE from "../assets/beauty.jpg";
+
 
 
 function animateFrom(elem, direction) {
@@ -53,14 +55,15 @@ const Service = () => {
   return (
     <div class="cInnerContent">
     {/* <h1 class="header-section gs_reveal ipsType_center">Scroll down and up to see different reveal animations</h1> */}
-    
     <div className="features">
      <div id="aboutStory"></div>
       <div className="feature ipsSpacer_bottom_double ipsGrid ipsGrid_collapsePhone">
         <div className="featured-image-container ipsGrid_span5 gs_reveal gs_reveal_fromLeft">
           <div className="card1" id="card">
+          <NavLink to='/aboutStory' exact>
             <img className="firstCard" width="479" src={imgaA}   alt=""
             />
+            </NavLink>
             <div id="laser"></div>
           </div>
         </div>
@@ -88,7 +91,9 @@ const Service = () => {
        
         <div className="featured-image-container ipsGrid_span5 gs_reveal gs_reveal_fromRight">
           <div className="card2" id="card1">
+          <NavLink to='/laser'>
             <img width="479" src={imgaB} alt=""/>
+          </NavLink>
           </div>
         </div>
         
@@ -97,7 +102,9 @@ const Service = () => {
       <div className="feature ipsSpacer_bottom_double ipsGrid ipsGrid_collapsePhone">
         <div className="featured-image-container ipsGrid_span5 gs_reveal gs_reveal_fromLeft">
           <div className="card3" id="card2">
+          <NavLink to='/skinCare' exact>
             <img width="479" src={imgaC} alt=""/>
+            </NavLink>
           </div>
         </div>
   
@@ -110,7 +117,7 @@ const Service = () => {
         </p>
         </h2>
         <p className="gs_reveal"> 피부과학으로 피부질환을 치료하는 <br/>전문성과 경험이 다릅니다.
-        <div className="scrolldownLeft1">scroll down</div>
+        <div className="scrolldownLeft3">scroll down</div>
         </p>
         </div>
       </div>
@@ -131,7 +138,9 @@ const Service = () => {
   
         <div className="featured-image-container ipsGrid_span5 gs_reveal gs_reveal_fromRight">
           <div className="card4" id="card3">
+          <NavLink to='/treatment' exact>
             <img width="479" src={imgaD} alt=""/>
+            </NavLink>
           </div>
         </div>
       </div>
@@ -153,7 +162,7 @@ const Service = () => {
         </p>
         </h2>
         <p className="gs_reveal"> - 화장품과 메이크업을 잘 아는 여의사 피부과전문의가  <br/> &nbsp;&nbsp;개개인의 다른 피부상태를 분석하여나에게 맞는 화장품을 찾고, <br/> &nbsp;&nbsp;효과가 확실히 입증된 스킨케어 프로그램으로 피부를 관리합니다. 
-        <div className="scrolldownLeft1">scroll down</div>
+        <div className="scrolldownLeft3">scroll down</div>
         </p>
         </div>
       </div>

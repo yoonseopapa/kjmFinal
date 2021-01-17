@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -7,9 +8,12 @@ const Footer = () => {
       <div className='footerContainer'>
         <div className='footerRow'>
             <div className='footerLine'>
-              <p className="ment"> COMPANY:파스텔피부과/ OWNER:김정민/사업자등록번호:123-123-123 </p>
-              <p className="ment"> ADDRESS:(도로명) 서울시 서초구 서운로 62 -1, 서초 리더스원상가 305호&nbsp;Tel:02-888-8888&nbsp;FAX:02-888-8888 </p>
-              <p className="ment"> Copyright by PastelClinic. All rights reserved</p>
+              <p className="ment"> COMPANY:JM김정민피부과/ OWNER:김정민/사업자등록번호:123-123-123 </p>
+              <p className="ment"> ADDRESS:(도로명) 서울시 서초구 사임당로 158, 래미안리더스원상가 3층 &nbsp;TEL:02-6953-1212&nbsp;FAX:02-6953-5566 </p>
+              <p className="ment"> Copyright by JM김정민피부과. All rights reserved</p>
+              <NavLink to='/price' exact>
+              <p className="ment"> 비급여 항목</p>
+              </NavLink>
             </div>
         </div>
       </div>

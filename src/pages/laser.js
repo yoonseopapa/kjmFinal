@@ -1,7 +1,12 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import imgaLogo from "../assets/logoFinal.png";
-import imgaA from "../assets/aging.jpg";
+import imgaLogo from "../assets/kjmLogo.png";
+import imgaA from "../assets/mainlaser.png";
+import imgaA1 from "../assets/white.png";
+import imgaA2 from "../assets/environ.jpg";
+import imgaA3 from "../assets/poten.png";
+import imgaA4 from "../assets/M22.png";
+
 import imgaB from "../assets/freckles.jpg";
 import imgaC from "../assets/acne.jpg";
 import imgaD from "../assets/laserCombination.png";
@@ -13,6 +18,7 @@ import Footer from "../pages/footer";
 
 
 const Laser = () => {
+  window.scrollTo(0, 0) 
   return (
 <div>
 <body>
@@ -22,7 +28,7 @@ const Laser = () => {
       <ul>
         <NavLink to='/' exact>
         <img className="logoImage" src={imgaLogo} alt=""/>
-        <li className="logo">김정민피부과</li>
+        {/* <li className="logo">김정민피부과</li> */}
         </NavLink>
 
         <NavLink to='/aboutStory' exact>
@@ -55,7 +61,7 @@ const Laser = () => {
         <div className="scrolldownLeftCon">scroll down</div>
     <div className="gununTitle">
     <div className="contentStroy">
-        <p> 파스텔만의 전문성</p>
+        <p> JM김정민피부과만의 전문성</p>
         <h1> Laser 치료</h1>
         <h3>정확한 진단과 치료는 피부과전문의의 전문분야 입니다.</h3>
         <h2 >ㅡㅡㅡ
@@ -75,7 +81,7 @@ const Laser = () => {
     <div className="features aging">
           <div className="leftContents">
             <img className="firstCardContents" src={imgaA} alt=""/>
-            <div className="story">
+            <div className="storyCombination">
         <p>COMBINATION TREATMENT PROGRAM</p>   
         <p>복합치료 프로그램</p>   
         <h2 > 모든 사람은 개인이 타고난 피부와 피부에 있는 병변의 종류가 모두 다릅니다. 나아가 한 개인의 
@@ -91,10 +97,13 @@ const Laser = () => {
           </div>
           </div>
           <div className="marchine">
-            <img className="firstCardLaser" src={imgaA} alt=""/>
-            <img className="firstCardLaser" src={imgaA} alt=""/>
-            <img className="firstCardLaser" src={imgaA} alt=""/>
-            <img className="firstCardLaser" src={imgaA} alt=""/>
+            <img className="firstCardLaser1" src={imgaA1} alt=""/>
+            <img className="firstCardLaser" src={imgaA2} alt=""/>
+            <img className="firstCardLaser" src={imgaA3} alt=""/>
+            <img className="firstCardLaser" src={imgaA4} alt=""/>
+            </div>
+            <div className="marchineTitle">
+            <p>"JM 김정민피부과의 프리미엄 레이저" (이미지화) 밑에 부족한 사진 추가 및 이미지 수급필요</p> 
             </div>
  
     </div>
@@ -102,7 +111,7 @@ const Laser = () => {
     <div className="features acne">
           <div className="rightContents">
             <img className="firstCardAcne" src={imgaB} alt=""/>
-            <div className="storyAcne">
+            <div className="storyAcnePigment">
             <p>PIGMENTATION </p>   
         <p>색소 </p>   
         <h2 > 맑고 깨끗한 피부를 위해서는 다양한 치료를 적절하게 조합하면 결과를 극대화할 수 있습니다.  

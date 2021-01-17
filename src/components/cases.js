@@ -1,8 +1,6 @@
 import React from "react";
 import imgaA from "../assets/map.png";
 import imgaB from "../assets/open.jpg";
-import imgaC from "../assets/hippocrates.jpg";
-import imgaD from "../assets/profile1.jpg";
 import Carousel from "react-elastic-carousel"
 
 
@@ -24,8 +22,9 @@ const Cases = () => {
               <div className='case-details'>
                  <div className="cardMent">
                 <span>오시는길</span>
-                <h2>(지번) 서울시 서초구 서초2동 1336-1, 서초리더스원상가</h2>
-                <h2>(도로명) 서울시 서초구 서운로 62 -1, 서초 리더스원상가 305호</h2>
+                <h2>(도로명) 서울시 서초구 사임당로 158, 래미안리더스원상가 3층</h2>
+                <h2> TEL : 02-6953-1212</h2>
+                <h2>FAX : 02-6953-5566</h2>
               </div>
               </div>
               <div className='case-image'>
@@ -39,7 +38,7 @@ const Cases = () => {
               <div className="cardMent">
                 <span>진료시간</span>
                 <h2>평일     :  AM 10:00 ~ PM 6:30 </h2>
-                <h2>토요일   :  AM 10:00 ~ PM 6:30 </h2>
+                <h2>토요일   :  AM 10:00 ~ PM 3:00 </h2>
                 <h2>점심시간 :  PM 2:00 ~ 3:00 </h2>
               </div>
               </div>
@@ -51,13 +50,7 @@ const Cases = () => {
             </section>
           </Carousel>
         </div>
-       <div className="womanPower1">
-       <h2>평일     :  AM 10:00 ~ PM 6:30 </h2>
-</div>
-       <div className="womanPower2">
-       <h2>평일     :  AM 10:00 ~ PM 6:30 </h2>
-</div>
-
+       <div className="womanPower1"></div>
         </div>
         
     </section>

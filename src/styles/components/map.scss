@@ -12,6 +12,7 @@
   @include media("<=phone") {
     position: absolute;
     top: 600%;
+    height:100%
   }
 }
 .mapRow{
@@ -23,7 +24,7 @@
   @include media("<=phone") {
     position: absolute;
     overflow: hidden;
-    left: 1%;
+    left: 3%;
     width: 94%;
     height: 40%;
   }

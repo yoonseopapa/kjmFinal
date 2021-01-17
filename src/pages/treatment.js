@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import imgaLogo from "../assets/logoFinal.png";
+import imgaLogo from "../assets/kjmLogo.png";
 import imgaA from "../assets/botox.jpg";
 import imgaB from "../assets/thread.jpg";
 import imgaC from "../assets/hairloss.jpg";
@@ -10,6 +10,7 @@ import Map from "../pages/map";
 import Footer from "../pages/footer";
 
 const SkinCare = () => {
+  window.scrollTo(0, 0) 
   return (
 <div>
 <body>
@@ -19,7 +20,7 @@ const SkinCare = () => {
       <ul>
         <NavLink to='/' exact>
         <img className="logoImage" src={imgaLogo} alt=""/>
-        <li className="logo">김정민피부과</li>
+        {/* <li className="logo">김정민피부과</li> */}
         </NavLink>
 
         <NavLink to='/aboutStory' exact>
@@ -53,7 +54,7 @@ const SkinCare = () => {
         <div className="scrolldownLeftCon">scroll down</div>
     <div className="gununTitle">
     <div className="contentStroy">
-        <p> 파스텔만의 노하우</p>
+        <p> JM파스텔피부과만의 노하우</p>
         <h1> 시술 Treatment</h1>
         <h3> 시술자에 따른 미세한 차이가 아름다운 변화로 
          <br/>이어집니다</h3>

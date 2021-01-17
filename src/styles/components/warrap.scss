@@ -57,7 +57,7 @@ ul {
   //   width: 100%;
   //   display: flex;
   // }
-  .text, .name, .bottomnav, .left1, .right1 {
+  .text, .name, .bottomnav, .left1, .right1, .womanPower1 {
     display: none;
   }
  
@@ -74,22 +74,24 @@ ul {
 
 }
 
+
 .womanPower1{
-  width: 50%;
-  height: 20vh;
+  width: 40%;
+  height: 21vh;
   margin-top: -3%;
   left: 50%;
-  background-color: black;
   position: absolute;
+  background-size: 100% 100%;
+  background-image: url("/assets/women.png");
 }
 
- 
       .womanPower2{
         width: 50%;
         height: 20vh;
         margin-top: 8%;
         left: 50%;
-        background-color: rgb(255, 0, 0);
+        background-size: 100% 100%;
+        background-image: url("/assets/women1.png");
         position: absolute;
       }
 
@@ -137,7 +139,6 @@ ul {
 .right {
   
   position: absolute;
-  height: 700%;
   z-index: -1;
 
 }
@@ -204,7 +205,7 @@ ul {
 
 .left3,
 .right3 {
-  top:410%;
+  top:460%;
   position: absolute;
   height: 100%;
   z-index: -1;
@@ -220,13 +221,13 @@ ul {
   right: 0%;
   width: 30%;
   height: 50%;
-  top:430%;
+  top:470%;
   background-size: 100% 100%;
   background-image: url("/assets/leaves-5448646_1920.png");
 }
 .left4,
 .right4 {
-  top:510%;
+  top:550%;
   position: absolute;
   height: 100%;
   z-index: -1;
@@ -235,7 +236,7 @@ ul {
   // background: #fff78e;
   left: -4%;
     width: 30%;
-    top: 510%;
+    top: 540%;
     height: 50%;
   background-image: url("/assets/leaves-5835601_1920.png");
   background-size: 100% 100%;
@@ -266,7 +267,7 @@ ul {
     height: 50%;
     width: 25%;
     background-size: 120% 100%;
-  background-image: url("/assets/leaves-5452659_1920.png");
+  // background-image: url("/assets/leaves-5452659_1920.png");
 }
 .flower{
   width: 60%;
@@ -300,7 +301,7 @@ ul {
   right: 0%;
   width: 30%;
   height: 50%;
-  top:610%;
+  top:660%;
   background-size: 100% 100%;
   background-image: url("/assets/leaves-5448646_1920.png");
 }
@@ -481,16 +482,16 @@ ul {
 .text h1 {
   font-size: 90px;
   color:#cccccc;
-  font-family: 'Raiderfont';
+  font-family: serif;
   text-transform: uppercase;
   // margin-left: 25%;
 }
 
 .text p {
   font-size: 18px;
+  font-family: serif;
   letter-spacing: 3px;
   color: #000000;
-  font-family: emoji;
 }
 
 .name {
@@ -500,7 +501,7 @@ ul {
   left: 0px;
   transform: translateY(-50%);
   font-size: 90px;
-  font-family: 'Raiderfont';
+  font-family: serif;
   text-transform: uppercase;
   color: #5f5f5f
   // -webkit-text-stroke: 2px #fff;
@@ -517,8 +518,9 @@ ul {
   color: #000000;
   text-transform: uppercase;
   letter-spacing: 8px;
-  text-shadow: 0 1px white;
+  /* text-shadow: 0 1px white; */
   font-weight: 700;
+  font-family: serif;
   margin-top: 20px;
   transition: transform 0.3s;
   &:hover{

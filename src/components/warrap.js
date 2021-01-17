@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import imgaA from "../assets/logoFinal.png";
+import imgaA from "../assets/kjmLogo.png";
 import Cases from "../components/cases";
 import Banner from "../components/banner";
 import Service from "../components/service"
@@ -24,7 +24,7 @@ const Warrap = () => {
       <ul>
         <NavLink to='/' exact>
         <img className="logoImage" src={imgaA} alt=""/>
-        <li className="logo">김정민피부과</li>
+        {/* <li className="logo">김정민피부과</li> */}
         </NavLink>
 
         <NavLink to='/aboutStory' exact>
@@ -122,9 +122,11 @@ const Warrap = () => {
           <img src={flowerMain}></img> 
       </div>
          <Service/>
-     </div>   
+     </div>
+     <div className="firstMainfooter">   
      <Map/>
          <Footer/>
+         </div>
   </div>
 </body>
 
