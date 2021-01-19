@@ -33,7 +33,7 @@ const AboutStroy = () => {
         </NavLink>
 
         <NavLink to='/treatment' exact>
-        <li className="treatment">Treatment</li>
+        <li className="treatment">Anti-Aging</li>
         </NavLink>
 
         

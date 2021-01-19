@@ -44,7 +44,7 @@ const Laser = () => {
         </NavLink>
 
         <NavLink to='/treatment' exact>
-        <li className="treatment">Treatment</li>
+        <li className="treatment">Anti-Aging</li>
         </NavLink>
 
         
@@ -151,14 +151,11 @@ const Laser = () => {
           <div className="rightContents">
             <img className="firstCardTightening" src={imgaB} alt=""/>
             <div className="storytightening">
-            <p>PIGMENTATION </p>   
-        <p>색소 </p>   
-        <h2 > 맑고 깨끗한 피부를 위해서는 다양한 치료를 적절하게 조합하면 결과를 극대화할 수 있습니다.  
-        <br/>흔히들 이야기하는 레이저 토닝은 치료테크닉의 이름이며, 기계적으로 모든 사람에게 같은 레이
-        <br/>저로 같은 에너지로 시술하는 것을 지양합니다. 잡티의 종류는 무엇인지, 어떤 피부인지를 파악하
-        <br/>고 1:1로 맞춤치료와 같이 계획하고 치료합니다. 피부 톤에 영향을 줄 수 있는 다양한 파장의 레
-        <br/>이저 복합 치료와 레이저 전, 후의 관리뿐만 아니라 매일 사용하는 화장품 확인을 비롯한 생활습
-        <br/>관 교정 또한 아주 중요합니다. 
+            <p>TIGHTENING/ PORE  </p>   
+        <p>탄력/ 모공</p>   
+        <h2 >피부의 모공이나 흉터는 피지분비가 많아지면서 도드라지기도 하지만, 노화에 따른 피부 탄력저 
+        <br/>하에 의해서도 생깁니다. 모양과 분포에 따라 원인을 정확히 파악하여 유수분 밸런스의 조절,
+        <br/>피부 탄력회복을 위한 고주파레이저, 초음파, CROSS 도트필링, 리쥬란힐러, 쥬베룩 등으로 치료합니다
         </h2>
         </div>
         

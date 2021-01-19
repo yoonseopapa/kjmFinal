@@ -36,7 +36,7 @@ const SkinCare = () => {
         </NavLink>
 
         <NavLink to='/treatment' exact>
-        <li className="treatment">Treatment</li>
+        <li className="treatment">Anti-Aging</li>
         </NavLink>
 
         
@@ -54,7 +54,7 @@ const SkinCare = () => {
         <div className="scrolldownLeftCon">scroll down</div>
     <div className="gununTitle">
     <div className="contentStroy">
-        <p> JM파스텔피부과만의 노하우</p>
+        <p> JM김정민피부과만의 노하우</p>
         <h1> 시술 Treatment</h1>
         <h3> 시술자에 따른 미세한 차이가 아름다운 변화로 
          <br/>이어집니다</h3>
@@ -76,7 +76,7 @@ const SkinCare = () => {
           <div className="leftContents">
             <img className="firstCardContents" src={imgaA} alt=""/>
      
-            <div className="story">
+            <div className="storyBotox">
             <p>BOTOX & DERMOTOXIN</p>   
         <p>보톡스와 더모톡신</p>   
         <h2 >주름Wrinkle ∙ 윤곽개선Face contour & 더모톡신 Dermotoxin
@@ -121,15 +121,13 @@ const SkinCare = () => {
     <div className="features lifting">
           <div className="leftContents">
             <img className="firstCardSecond" src={imgaB} alt=""/>
-            <div className="story">
-            <p>BOTOX & DERMOTOXIN</p>   
-        <p>보톡스와 더모톡신</p>   
-        <h2 >주름Wrinkle ∙ 윤곽개선Face contour & 더모톡신 Dermotoxin
-        <br/>시술자의 경험과 섬세함에 따라 결과차이가 많이 날수 있는 가성비가 좋은
-        <br/>안티에이징의 기본 치치료라고 생각합니다. 적절한 용량을 적당한 위치에
-        <br/>잘 놓는다면, 주름뿐만 아니라 얼굴의 윤곽개선, 모공이나 흉터의 개선 등의
-        <br/>다양한 효과를 낼 수 있습니다. 얼굴뿐만 아니라 승모근, 허벅지, 종아리의 
-        <br/>비대해진 근육감소와 편두통의 치료에도 응용 가능합니다.
+            <div className="storylifting">
+            <p>THREAD LIFTING</p>   
+        <p>실리프팅</p>   
+        <h2 >즉각적인 리프팅 효과뿐만 아니라 콜라겐 재생 등의 효과로 피부 탄력에도 도움이 됩니다. 멍이
+        <br/>나 붓기가 적어 바로 일상생활에 복귀가 가능하며 시술시 통증이 적어 국소마취로도 간단히 시술
+        <br/>이 가능합니다. 또한 조직 내에서의 이동, 돌출, 비대칭성과 같은 부작용이 적으며 다른 리프팅
+        <br/>레이저, 보톡스, 필러와 병합시 치료효과를 극대화할 수 있습니다. 
         </h2>
         <br/>
         </div>

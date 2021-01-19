@@ -36,7 +36,7 @@ const SkinCare = () => {
         </NavLink>
 
         <NavLink to='/treatment' exact>
-        <li className="treatment">Treatment</li>
+        <li className="treatment">Anti-Aging</li>
         </NavLink>
 
         
@@ -53,7 +53,7 @@ const SkinCare = () => {
         <div className="scrolldownLeftCon">scroll down</div>
     <div className="gununTitle">
     <div className="contentStroy">
-        <p> JM파스텔피부과만의 피부관리</p>
+        <p> JM김정민피부과만의 피부관리</p>
         <h1> 치료 Cure</h1>
         <h3>근본적인 치료가 필요합니다.</h3>
         <h2 >ㅡㅡㅡ
