@@ -2,10 +2,14 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import imgaLogo from "../assets/kjmLogo.png";
 import imgaA from "../assets/mainlaser.png";
-import imgaA1 from "../assets/white.png";
-import imgaA2 from "../assets/environ.jpg";
-import imgaA3 from "../assets/poten.png";
-import imgaA4 from "../assets/M22.png";
+import imgaA1 from "../assets/M22.png";
+import imgaA2 from "../assets/white.png";
+import imgaA3 from "../assets/vlaser.jpg";
+import imgaA4 from "../assets/eonjain.png";
+import imgaA5 from "../assets/co2laser.jpg";
+import imgaA6 from "../assets/varasonic.jpg";
+import imgaA7 from "../assets/velalux.jpg";
+
 
 import imgaB from "../assets/freckles.jpg";
 import imgaC from "../assets/acne.jpg";
@@ -56,7 +60,6 @@ const Laser = () => {
       </ul>
     </nav>
     <div className="contentTitle">
-      <p>LASER CARE</p>
     </div>
         <div className="scrolldownLeftCon">scroll down</div>
     <div className="gununTitle">
@@ -97,13 +100,17 @@ const Laser = () => {
           </div>
           </div>
           <div className="marchine">
-            <img className="firstCardLaser1" src={imgaA1} alt=""/>
-            <img className="firstCardLaser" src={imgaA2} alt=""/>
-            <img className="firstCardLaser" src={imgaA3} alt=""/>
-            <img className="firstCardLaser" src={imgaA4} alt=""/>
+            <img className="firstCardLaser" src={imgaA1} alt=""/>
+            <img className="firstCardLaser1" src={imgaA2} alt=""/>
+            <img className="firstCardLaser2" src={imgaA3} alt=""/>
+            <img className="firstCardLaser3" src={imgaA6} alt=""/>
+            <img className="firstCardLaser4" src={imgaA7} alt=""/>
+            <img className="firstCardLaser5" src={imgaA4} alt=""/>
+            <img className="firstCardLaser6" src={imgaA5} alt=""/>
+    
             </div>
             <div className="marchineTitle">
-            <p>"JM 김정민피부과의 프리미엄 레이저" (이미지화) 밑에 부족한 사진 추가 및 이미지 수급필요</p> 
+            <p>"JM 김정민피부과의 프리미엄 레이저"</p> 
             </div>
  
     </div>

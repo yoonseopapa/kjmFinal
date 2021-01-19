@@ -48,7 +48,6 @@ const SkinCare = () => {
       </ul>
     </nav>
     <div className="contentTitle">
-      <p>SKIN CARE</p>
     </div>
         <div className="scrolldownLeftCon">scroll down</div>
     <div className="gununTitle">

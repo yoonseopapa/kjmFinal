@@ -7,7 +7,7 @@ import Service from "../components/service"
 import Map from "../pages/map";
 import Footer from "../pages/footer";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import flower from "../assets/flowers-5535925_1920.png";
+import flower from "../assets/palm-4206654_1920.jpg";
 import flowerMain from "../assets/autumn-leaves-5386496_1920.png";
 
 const Warrap = () => {
@@ -63,12 +63,11 @@ const Warrap = () => {
       </div>
 
       <div className="text">
-        <h1>derma</h1>
-        <p align="right">JM Dermatology</p>
+        <h1>자연스러운 아름다움이 시작되는곳</h1>
       </div>
 
-      <div className="name">tology
-          {/* <img src={Logo}></img> */}
+      <div className="name">겉으로 보이는 피부뿐만 아니라 근본적인 피부의 개선으로 보다<br/> 건강하고 아름다운 피부를 위해 세심한 서비스와 시술로 <br/>만족스러운 결과를 보여드리겠습니다. 
+  
       </div>
 
       <div className="bottomnav">

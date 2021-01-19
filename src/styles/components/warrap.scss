@@ -32,7 +32,7 @@
   top: 20%;
   left: 4%;
   }
-  box-shadow: 0px 0px 10px black;
+  // box-shadow: 0px 0px 10px black;
   height: 120%;
   top: 8%;
 
@@ -189,7 +189,7 @@ ul {
 .left2 {
   // background: #f1c8c8;
   left: 0%;
-  top:330%;
+  top:317%;
   height: 50%;
   width: 30%;
   background-image: url("/assets/leaves-5455841_1920.png");
@@ -220,7 +220,7 @@ ul {
   right: 0%;
   width: 30%;
   height: 50%;
-  top:470%;
+  top:425%;
   background-size: 100% 100%;
   background-image: url("/assets/leaves-5448646_1920.png");
 }
@@ -272,7 +272,7 @@ ul {
   width: 60%;
     position: absolute;
     left: 82%;
-    top: 30%;
+    top: 16%;
 }
 .flowerMain{
   width: 30%;
@@ -300,9 +300,9 @@ ul {
   right: 0%;
   width: 30%;
   height: 50%;
-  top:660%;
+  top:605%;
   background-size: 100% 100%;
-  background-image: url("/assets/leaves-5448646_1920.png");
+  background-image: url("/assets/leaves-5452659_1920.png");
 }
 .navg{
   .profilefirst{
@@ -472,18 +472,23 @@ ul {
 }
 
 .text {
+  width: 10%;
+  height: 22%;
   position: absolute;
-  top: 35%;
-  right: 4%;
+  top: 40%;
+  left: 60%;
+  font-size: 10px;
+  border: 5px double white;
   transform: translateY(-50%);
 }
 
 .text h1 {
-  font-size: 90px;
-  color:#cccccc;
+  text-align: center;
+  font-size: 1.6vw;
+  color: #000000;
   font-family: serif;
+  margin-top: 4vh;
   text-transform: uppercase;
-  // margin-left: 25%;
 }
 
 .text p {
@@ -496,13 +501,13 @@ ul {
 .name {
   // background-image: url("/assets/logo.png");
   position: absolute;
-  top:  65%;
-  left: 0px;
+  top: 75%;
+  left: 15%;
   transform: translateY(-50%);
-  font-size: 90px;
+  font-size: 1.6vw;
   font-family: serif;
   text-transform: uppercase;
-  color: #5f5f5f
+  color: #5f5f5f;
   // -webkit-text-stroke: 2px #fff;
   // background-color: rgb(255, 0, 0);
 }
@@ -619,4 +624,5 @@ ul {
     top: 100%;
   }
 margin-top:100%;
+
 }
