@@ -110,14 +110,15 @@
   margin-top: 20%;
   margin-left: 6%;
   text-align: left;
-  font-size:17px;
-  color:#818181
+  font-size: 17px;
+  color: #818181;
+  font-family: 'hmuB';
 }
 
 .contentStroy h1{
   
   margin-left: 6%;
-  font-family: serif;
+  font-family: hmuB;
   text-align: left;
   font-size:35px;
   color:#000000
@@ -125,7 +126,7 @@
 
 .contentStroy h2{
   margin-top: 15%;
-  font-family: serif;
+  font-family: hmuB;
   margin-left: 6%;
   text-align: left;
   font-size:15px;
@@ -136,7 +137,8 @@
   margin-left: 6%;
   text-align: left;
   font-size:23px;
-  color:#818181
+  color:#818181;
+  font-family:'hmuR'
 }
 
 
@@ -227,8 +229,9 @@
 .storyCombination{
   position: absolute;
   margin-top: 5%;
-    float: right;
-    left: 56%;
+  float: right;
+  left: 49%;
+  width: 66%;
 }
 
 .storyCombination span{
@@ -239,15 +242,16 @@ color:#252525;
 
 
 .storyCombination h2{
-  font-size: 16px;
-  color:#6a6a6a;
+  color: #6a6a6a;
   line-height: 1.7;
-  font:inherit;
+  font: inherit;
+  font-size: 1.2vw;
+  font-family: 'hmuM';
   vertical-align: baseline;
   }
 
   .storyCombination p{
-    font-family: "Spoqa Han Sans Bold";
+    font-family: "hmuB";
     font-size: 15px;
     font-size: 28px;
     color: #252525;

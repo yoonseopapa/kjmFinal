@@ -115,7 +115,7 @@
         span {
           top: 10%;
           position: relative;
-          font-family: 'Clickbluesky';
+          font-family: 'hmuL';
           margin-top: 70%;
           font-size: 1.5rem;
           color: rgb(255, 255, 255);
@@ -132,12 +132,12 @@
         h2 {
           position: relative;
           top: 20%;
-          font-family: 'Clickbluesky';
-          font-size: 1.4rem;
-          line-height: 3.5rem;
+          font-family: 'hmuL';
+          font-size: 1.2vw;
+          line-height: 6.0vh;
           width: 100%;
           margin-top: 1px;
-          color: rgb(255, 255, 255);
+          color: white;
           font-weight: 400;
           @include media("<=desktop", ">tablet") {
             font-size: 3rem;
