@@ -11,9 +11,9 @@ import imgaA6 from "../assets/varasonic.jpg";
 import imgaA7 from "../assets/velalux.jpg";
 
 
-import imgaB from "../assets/freckles.jpg";
+import imgaB from "../assets/freckles.png";
 import imgaC from "../assets/acne.jpg";
-import imgaD from "../assets/laserCombination.png";
+import imgaD from "../assets/pore.jpg";
 import playerA from "../assets/snowflakes.mp4";
 import classes from "../styles/components/BackgroundVideo.scss";
 import Map from "../pages/map";
@@ -111,6 +111,7 @@ const Laser = () => {
             </div>
             <div className="marchineTitle">
             <p>"JM 김정민피부과의 프리미엄 레이저"</p> 
+            <h2>멸균소독하고 1인 1기구사용을 바탕으로 위생관리에 철저한</h2> <h3>CLEAN SYSTEM</h3>  <h4>적용</h4> 
             </div>
  
     </div>
@@ -156,7 +157,7 @@ const Laser = () => {
     </div>
     <div className="features tightening">
           <div className="rightContents">
-            <img className="firstCardTightening" src={imgaB} alt=""/>
+            <img className="firstCardTightening" src={imgaD} alt=""/>
             <div className="storytightening">
             <p>TIGHTENING/ PORE  </p>   
         <p>탄력/ 모공</p>   
