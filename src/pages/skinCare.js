@@ -2,8 +2,8 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import imgaLogo from "../assets/kjmLogo.png";
 import imgaA from "../assets/skinCare.jpg";
-import imgaB from "../assets/ice.jpg";
-import imgaC from "../assets/head-min.jpg";
+import imgaB from "../assets/ice.png";
+import imgaC from "../assets/head-min.png";
 import playerA from "../assets/skinCare.mp4";
 import classes from "../styles/components/BackgroundVideo.scss";
 import Map from "../pages/map";
@@ -73,7 +73,7 @@ const SkinCare = () => {
     <div className="features aging">
           <div className="leftContents">
             <img className="firstCardContents" src={imgaA} alt=""/>
-            <div className="story">
+            <div className="storyCorn">
             <p>Corn/ Verruca</p>   
         <p>티눈/ 사마귀</p>   
         <h2 >사마귀는 인유두종바이러스(Human Papilloma Virus)의 감염으로 인해 발생하는 질환으로 본인의  
@@ -93,37 +93,46 @@ const SkinCare = () => {
 
     <div className="features acne">
           <div className="rightContents">
-            <img className="firstCardAcne" src={imgaB} alt=""/>
-            <div className="storyAcne">
-            <p>BURN</p>   
-        <p>화상</p>   
+          
+         <div className="storyAcne">
+        <p>BURN</p>   
+        <p>화상</p> 
+        <h2 >불이나 뜨거운 물, 강산이나 강알칼리 등의 화학물질, 아스팔트에 쓸림, 뜨거운 햇빛에 
+        <br/>노출 등의 자극에 의해 피부가 손상된 것을 말합니다. 
+        </h2>
+        <img className="firstCardAcne" src={imgaB} alt=""/>  
+        </div>
+        <div className="storyAcne2">
+         
         <h2 >병변의 상태에 따라 필요한 경우에는 항생제, 소염제 등의 전신약물치료를 병행하는 것이 
         <br/>필요할 수 있습니다. 가능한 빨리 이물질을 제거하고, 화상병변부위의 소독, 바세린 거즈
         <br/>와  화상연고를 이용하여 2차 감염 및 흉터, 색소 침착등을 방지하는 것이 필요합니다.
         <br/>또한 LED 재생레이저를 통해 화상으로 인한 염증을 개선하고, 흉터와 색소침착을 예방 하
         <br/>면서 손상된 피부의 회복을 촉진시킵니다. 
         </h2>
+
         </div>
-        
+      
         <div>
           </div>
           </div>
     </div>
     <div className="features freckles">
-          <div className="leftContents">
-            <img className="firstCardContents" src={imgaC} alt=""/>
-            <div className="story">
+          <div className="rightContents">
+            <div className="storyFreckles">
             <p>HERPES ZOSTER</p>   
         <p>대상포진</p>   
-        <h2 >대상포진은 어렸을 때 수두바이러스에 감염된 적이 있는 사람들에게 면역기능이 약해졌을 때 잠
-        <br/>잠복해 있던 바이러스가 신경절을 따라 피부발진과 수포를 유발하는 바이러스질환입니다. 
-        <br/>치료법) 유사하게 보이는 질환들과 감별하는 것이 가장 중요하며, 약물치료와 함께 피부에 나타난
-        <br/>홍반성 수포, 물집 등의 증상을 잘 관리하여 2차적인 감염을 에방하면서, 초기에 철저한 병변 관
-        <br/>리로 흉터를 최소화 하는 것이 중요합니다. 병변부위에 신경차단술을 병행하고, 헬륨네온레이저와 
-        <br/>LED파장을 동시에 이용하여 염증과 통증을 줄여주며, 대상포진후 신경통으로의 이행을 예방합니다.
+        <h2 >피부 뿐만 아니라 면역체계의 회복을 목표로 치료합니다. 
         </h2>
-        <br/>
-        <br/>
+        <img className="firstCardContentsFreck" src={imgaC} alt=""/>
+        </div>
+        <div className="storyFreckles2">
+        <h2 >병변의 상태에 따라 필요한 경우에는 항생제, 소염제 등의 전신약물치료를 병행하는 것이 
+        <br/>필요할 수 있습니다. 가능한 빨리 이물질을 제거하고, 화상병변부위의 소독, 바세린 거즈
+        <br/>와  화상연고를 이용하여 2차 감염 및 흉터, 색소 침착등을 방지하는 것이 필요합니다.
+        <br/>또한 LED 재생레이저를 통해 화상으로 인한 염증을 개선하고, 흉터와 색소침착을 예방 하
+        <br/>면서 손상된 피부의 회복을 촉진시킵니다. 
+        </h2>
         </div>
         <div>
           </div>
