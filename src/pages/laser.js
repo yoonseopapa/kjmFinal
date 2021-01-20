@@ -118,7 +118,7 @@ const Laser = () => {
 
     <div className="features acne">
           <div className="rightContents">
-            <img className="firstCardAcne" src={imgaB} alt=""/>
+            <img className="firstCardAcneLaser" src={imgaB} alt=""/>
             <div className="storyAcnePigment">
             <p>PIGMENTATION </p>   
         <p>색소 </p>   

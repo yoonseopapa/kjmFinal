@@ -94,7 +94,7 @@ const SkinCare = () => {
 
     <div className="features acne">
           <div className="rightContents">
-            <img className="firstCardAcne" src={imgaC} alt=""/>
+            <img className="firstCardAcneBr" src={imgaC} alt=""/>
             <div className="storyAcneTr">
             <p>BRIGHTENING LIFTING</p>   
         <h2>히알루론산 Hyaluronic acid<br/>리쥬란힐러 PDRN polydeoxyribonucleotide<br/>쥬베룩 PLA poly D, L-lactide </h2>   
