@@ -138,7 +138,7 @@ const Laser = () => {
     <div className="features freckles">
           <div className="leftContents">
             <img className="firstCardContents" src={imgaC} alt=""/>
-            <div className="story">
+            <div className="storyFeckles">
         <p>ACNE/ ERYTHEMA, PIGMENTATION, SCAR</p>   
         <p>여드름/ 붉은자국, 색소, 여드름흉터 </p>   
         <h2 >여드름은 조기치료가 늦어지게 될 경우 최소 붉은자국이나 색소침착, 패인흉터로 연결될수 있기

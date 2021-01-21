@@ -2,8 +2,9 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import imgaLogo from "../assets/kjmLogo.png";
 import imgaA from "../assets/skinCare.jpg";
-import imgaB from "../assets/ice.png";
-import imgaC from "../assets/head-min.png";
+import imgaB from "../assets/ice.jpg";
+import imgaC from "../assets/head-min.jpg";
+import imgaD from "../assets/tinea.jpg";
 import playerA from "../assets/skinCare.mp4";
 import classes from "../styles/components/BackgroundVideo.scss";
 import Map from "../pages/map";
@@ -104,11 +105,9 @@ const SkinCare = () => {
         </div>
         <div className="storyAcne2">
          
-        <h2 >병변의 상태에 따라 필요한 경우에는 항생제, 소염제 등의 전신약물치료를 병행하는 것이 
-        <br/>필요할 수 있습니다. 가능한 빨리 이물질을 제거하고, 화상병변부위의 소독, 바세린 거즈
-        <br/>와  화상연고를 이용하여 2차 감염 및 흉터, 색소 침착등을 방지하는 것이 필요합니다.
-        <br/>또한 LED 재생레이저를 통해 화상으로 인한 염증을 개선하고, 흉터와 색소침착을 예방 하
-        <br/>면서 손상된 피부의 회복을 촉진시킵니다. 
+        <h2 >병변의 상태에 따라 필요한 경우에는 항생제, 소염제 등의 전신약물치료를 병행하는 것이 필요할 수 있습니다. 
+        <br/>가능한 빨리 이물질을 제거하고, 화상병변부위의 소독, 바세린 거즈와  화상연고를 이용하여 2차 감염 및 흉터, 색소 침착등을 방지하는 것이 필요합니다.
+        <br/>또한 LED 재생레이저를 통해 화상으로 인한 염증을 개선하고, 흉터와 색소침착을 예방 하면서 손상된 피부의 회복을 촉진시킵니다. 
         </h2>
 
         </div>
@@ -127,17 +126,71 @@ const SkinCare = () => {
         <img className="firstCardContentsFreck" src={imgaC} alt=""/>
         </div>
         <div className="storyFreckles2">
-        <h2 >병변의 상태에 따라 필요한 경우에는 항생제, 소염제 등의 전신약물치료를 병행하는 것이 
-        <br/>필요할 수 있습니다. 가능한 빨리 이물질을 제거하고, 화상병변부위의 소독, 바세린 거즈
-        <br/>와  화상연고를 이용하여 2차 감염 및 흉터, 색소 침착등을 방지하는 것이 필요합니다.
-        <br/>또한 LED 재생레이저를 통해 화상으로 인한 염증을 개선하고, 흉터와 색소침착을 예방 하
-        <br/>면서 손상된 피부의 회복을 촉진시킵니다. 
+        <h2 >병변의 상태에 따라 필요한 경우에는 항생제, 소염제 등의 전신약물치료를 병행하는 것이 필요할 수 있습니다. 
+        <br/>가능한 빨리 이물질을 제거하고, 화상병변부위의 소독, 바세린 거즈와  화상연고를 이용하여 2차 감염 및 흉터, 색소 침착등을 방지하는 것이 필요합니다.
+        <br/>또한 LED 재생레이저를 통해 화상으로 인한 염증을 개선하고, 흉터와 색소침착을 예방 하면서 손상된 피부의 회복을 촉진시킵니다. 
+        <br/>
+
         </h2>
         </div>
         <div>
           </div>
           </div>
     </div>
+
+    <div className="features acne">
+          <div className="rightContents">
+            <img className="firstCardtinea" src={imgaD} alt=""/>
+            <div className="storyAcneTinea">
+            <p>TINEA </p>   
+        <p>무좀 </p>   
+        <h1>가렵고 불편한 곰팡이 감염증! 감염률이 높기 때문에 가족, 주변사람들을 위해 치료하는 것이 좋습니다. </h1>
+
+        <h2 >
+        <br/>피부사상균(DERMATOPHYTE)이 피부의 가장 바깥층인 각질층이나 손발톱 등에 감염되는 표재성
+        <br/>감염을 통틀어서 일컫는 말입니다. 얼굴, 두피, 사타구니, 발가락 사이, 발톱 등 다양한 부위가 감
+        <br/>염될 수 있으며, 발백선은 흔히 무좀이라고 불리는 질환입니다. 정확한 진단없이 무좀약을 섣불리 
+        <br/>복용하는 것은 질환의 치료에도 크게 도움되지 않으며, 오히려 치료기간을 연장시키거나 병변의 
+        <br/>모습을 변형시킬수 있으므로 주의가 필요합니다. 비슷하게 보이는 여러 질환과의 감별을 위해서
+        <br/>는 무좀검사(KOH test), 우드등 검사가 필요하며 숙련된 피부과전문의에게 정확히 진단받고 제대
+        <br/>된 치료를 받는 것이 무엇보다 중요합니다. 
+        </h2>
+        </div>
+        
+        <div>
+          </div>
+          </div>
+    </div> 
+
+    <div className="features aging">
+          <div className="leftContents">
+            <img className="firstCardAtopic" src={imgaA} alt=""/>
+            <div className="storyCornAtopic">
+            <p>Corn/ Verruca</p>   
+        <p>티눈/ 사마귀</p>   
+        <h1>연령별, 증상별로 원인과 치료법이 다르기 때문에 피부상태에 따른 맞춤치료를 시행합니다.  </h1>
+        <h2 >아토피피부염은 여러 가지 알레르기 유발물질에 대해 민감하고 큰 이상반응을 나타내면서 심한 
+        <br/>가려움증이 동반되는 만성피부질환입니다. 피부 장벽의 기능에 중요한 성분인 세라마이드가 부족
+        <br/>하여 피부가 쉽게 민감해지고 건조하여 염증으로 연결될 수 있습니다. 지루성피부염은 만성적인 
+        <br/>염증성 피부질환이며 보통 유전적요인, 피지선의 이상, 곰팡이 균의 활동, 환경적∙정신적 문제 등
+        <br/>등으로 보고 있습니다. 피지선의 비정상적인 분비로 인해 탈모로 연결되는 경우에는 염증, 가려움증, 
+        <br/>비듬과 함께 통증과 악취를 유발하기도 합니다. 두 질환모두 치료가 끝났다고 해서 모두 끝나는
+        <br/>것이 아닙니다. 재발률이 높기 때문에 지속적인 관리가 무엇보다 중요합니다. 적절한 보습제와 클
+        <br/>렌저의 사용, 초음파 수분관리, 피부 재생관리를 통해 철저한 관리가 지속적으로 필요합니다. 
+        </h2>
+        <br/>
+        <br/>
+        </div>
+        <div>
+          </div>
+          </div>
+    </div>
+
+    <div className="tagColor1"></div>
+    <div className="tagColor2"></div>
+    <div className="tagColor3"></div>
+    <div className="tagColor4"></div>
+    <div className="tagColor5"></div>
     <div className="laserfooter">
 <Map/>
 <Footer/>

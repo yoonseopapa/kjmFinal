@@ -1,6 +1,9 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import imgaA from "../assets/kjmLogo.png";
+import imgaB from "../assets/kakao.png";
+import imgaC from "../assets/blog.png";
+import imgaD from "../assets/naver.png";
 import Cases from "../components/cases";
 import Banner from "../components/banner";
 import Service from "../components/service"
@@ -44,8 +47,19 @@ const Warrap = () => {
         </NavLink>
 
         
+        <li className="kakao">
+          <img className="img" src={imgaB} alt=""/>
+        </li>
+
+        <li className="blog">
+          <img className="img" src={imgaC} alt=""/>
+        </li>
+        <li className="naver">
+          <img className="img" src={imgaD} alt=""/>
+        </li>
+
         <a href="#aboutStory">
-        <li className="profile">
+        <li className="Profile">
           <div className="img"></div>
         </li>
         </a>
