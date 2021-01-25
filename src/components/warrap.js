@@ -43,9 +43,12 @@ const Warrap = () => {
         </NavLink>
 
         <NavLink to='/treatment' exact>
-        <li className="treatment">Treatment</li>
+        <li className="treatment">Anti-Aging</li>
         </NavLink>
 
+        <NavLink to='/special' exact>
+        <li className="special">SPECIAL IN JM</li>
+        </NavLink>
         
         <li className="kakao">
           <img className="img" src={imgaB} alt=""/>

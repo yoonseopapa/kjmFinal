@@ -8,6 +8,7 @@ import Laser from "./pages/laser";
 import Price from "./pages/price";
 import SkinCare from "./pages/skinCare";
 import Treatment from "./pages/treatment";
+import Special from "./pages/special";
 
 const routes = [
   { path: "/", name: "Home", Component: Home},
@@ -15,7 +16,9 @@ const routes = [
   { path: "/laser", name: "Laser", Component: Laser },
   { path: "/skinCare", name: "SkinCare", Component: SkinCare },
   { path: "/treatment", name: "Treatment", Component: Treatment },
-  { path: "/price", name: "Price", Component: Price }
+  { path: "/price", name: "Price", Component: Price },
+  { path: "/special", name: "Special", Component: Special }
+
 ];
 
 function debounce(fn, ms) {
