@@ -49,17 +49,7 @@ const Warrap = () => {
         <NavLink to='/special' exact>
         <li className="special">SPECIAL IN JM</li>
         </NavLink>
-        
-        <li className="kakao">
-          <img className="img" src={imgaB} alt=""/>
-        </li>
-
-        <li className="blog">
-          <img className="img" src={imgaC} alt=""/>
-        </li>
-        <li className="naver">
-          <img className="img" src={imgaD} alt=""/>
-        </li>
+      
 
         <a href="#aboutStory">
         <li className="Profile">
@@ -69,8 +59,14 @@ const Warrap = () => {
       </ul>
     </nav>
 
+   
+
     <div className="content">
       <div className="img-wrapper">
+      <div className="introduce" id="introduce" ></div> 
+    <div className="next1">
+      <a href="https://blog.naver.com/seochoskin">Blog</a>
+      </div>
       <Banner/>
       </div>
       <div className="info" id="info">
@@ -115,10 +111,12 @@ const Warrap = () => {
       <div className="next">up next
       <div className="introduce" id="introduce" ></div> 
       </div>
-
+     <div>
+     </div>
     </div>
      <div className="contents"> 
-     <div className="left1"></div>
+     <div className="left1">
+     </div>
     <div className="right1"></div>
     <div className="left2"></div>
     <div className="right2"></div>
@@ -127,11 +125,14 @@ const Warrap = () => {
     <div className="left4"></div>
     <div className="right4"></div>
     <div className="left5">
+    
       <div className="flower">
           <img src={flower}></img> 
       </div>
     </div>
-    <div className="right5"></div>
+    <div className="right5">
+    
+    </div>
     <div className="left6"></div>
     <div className="right6"></div>
     <div className="flowerMain">
