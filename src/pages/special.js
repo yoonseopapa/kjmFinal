@@ -4,7 +4,8 @@ import imgaLogo from "../assets/kjmLogo.png";
 import imgaA from "../assets/event1.png";
 import imgaB from "../assets/event2.png";
 import imgaC from "../assets/event3.png";
-import imgaD from "../assets/tinea.jpg";
+import imgaD from "../assets/mix.png";
+import imgaE from "../assets/tinea.jpg";
 
 import Map from "../pages/map";
 import Footer from "../pages/footer";
@@ -49,10 +50,13 @@ const Special = () => {
     <img src={imgaA} className="img"></img>
     </div>
     <div className="boarView1">
-    <img src={imgaB} className="img"></img>
+    <img src={imgaC} className="img"></img>
     </div>
     <div className="boarView2">
-    <img src={imgaC} className="img"></img>
+    <img src={imgaB} className="img"></img>
+    </div>
+    <div className="boarView3">
+    <img src={imgaD} className="img"></img>
     </div>
     <div className="boarList">
       <ul>
