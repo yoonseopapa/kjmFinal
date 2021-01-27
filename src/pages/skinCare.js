@@ -1,10 +1,11 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import imgaLogo from "../assets/kjmLogo.png";
-import imgaA from "../assets/skinCare.jpg";
+import imgaA from "../assets/skinball.png";
 import imgaB from "../assets/ice.jpg";
 import imgaC from "../assets/head-min.jpg";
 import imgaD from "../assets/tinea.jpg";
+import imgaE from "../assets/atopy.JPG";
 import playerA from "../assets/skinCare.mp4";
 import classes from "../styles/components/BackgroundVideo.scss";
 import Map from "../pages/map";
@@ -39,7 +40,9 @@ const SkinCare = () => {
         <NavLink to='/treatment' exact>
         <li className="treatment">Anti-Aging</li>
         </NavLink>
-
+        <NavLink to='/special' exact>
+        <li className="special">SPECIAL IN JM</li>
+        </NavLink>
         
         <a href="#aboutStory">
         <li className="profile">
@@ -164,7 +167,7 @@ const SkinCare = () => {
 
     <div className="features aging">
           <div className="leftContents">
-            <img className="firstCardAtopic" src={imgaA} alt=""/>
+            <img className="firstCardAtopic" src={imgaE} alt=""/>
             <div className="storyCornAtopic">
         <p>ATOPIC DERMATITIS/ SEBORRHEIC DERMATITIS</p>   
         <p>아토피피부염 / 지루성피부염</p>   
@@ -186,11 +189,11 @@ const SkinCare = () => {
           </div>
     </div>
 
-    <div className="tagColor1"></div>
+    {/* <div className="tagColor1"></div>
     <div className="tagColor2"></div>
     <div className="tagColor3"></div>
     <div className="tagColor4"></div>
-    <div className="tagColor5"></div>
+    <div className="tagColor5"></div> */}
     <div className="laserfooter">
 <Map/>
 <Footer/>

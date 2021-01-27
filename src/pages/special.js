@@ -5,8 +5,14 @@ import imgaA from "../assets/event1.png";
 import imgaB from "../assets/event2.png";
 import imgaC from "../assets/event3.png";
 import imgaD from "../assets/mix.png";
-import imgaE from "../assets/tinea.jpg";
-
+import imgaE from "../assets/machine.png";
+import imgaA1 from "../assets/M22.png";
+import imgaA2 from "../assets/white.png";
+import imgaA3 from "../assets/vlaser.jpg";
+import imgaA4 from "../assets/eonjain.png";
+import imgaA5 from "../assets/co2laser.jpg";
+import imgaA6 from "../assets/varasonic.jpg";
+import imgaA7 from "../assets/velalux.jpg";
 import Map from "../pages/map";
 import Footer from "../pages/footer";
 
@@ -37,7 +43,9 @@ const Special = () => {
         <NavLink to='/treatment' exact>
         <li className="treatment">Anti-Aging</li>
         </NavLink>
-
+        <NavLink to='/special' exact>
+        <li className="special">SPECIAL IN JM</li>
+        </NavLink>
         
         <a href="#aboutStory">
         <li className="profile">
@@ -52,11 +60,15 @@ const Special = () => {
     <div className="boarView1">
     <img src={imgaC} className="img"></img>
     </div>
+    <div className="boarView3">
+    <img src={imgaD} className="img"></img>
+    </div>
     <div className="boarView2">
     <img src={imgaB} className="img"></img>
     </div>
-    <div className="boarView3">
-    <img src={imgaD} className="img"></img>
+ 
+    <div className="boarView4">
+    <img src={imgaE} className="img"></img>
     </div>
     <div className="boarList">
       <ul>

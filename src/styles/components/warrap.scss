@@ -499,11 +499,8 @@ ul {
     width: 100%;
     left: 3%;
   }
-  width: 98%;
   position: absolute;
-  left: 140px;
 }
-
 .img-wrapper .karina {
   background-image: url("/assets/karina.jpg");
   background-size: cover;
@@ -687,7 +684,6 @@ ul {
   text-transform: uppercase;
   margin-bottom: 20px;
   color: black;
-  z-index: 10;
 
 }
 .next1 a{
@@ -697,10 +693,10 @@ ul {
   content: "";
   display: inline-block;
   border: 1px solid black;
-  width: 50px;
-  margin: 0 0 0 20px;
-  transform: translateY(-3px);
-  margin-left: 2%;
+  width: 10px;
+  position: absolute;
+  transform: translateY(6px);
+  left: -30%;
 }
 
 

@@ -38,7 +38,9 @@ const SkinCare = () => {
         <NavLink to='/treatment' exact>
         <li className="treatment">Anti-Aging</li>
         </NavLink>
-
+        <NavLink to='/special' exact>
+        <li className="special">SPECIAL IN JM</li>
+        </NavLink>
         
         <a href="#aboutStory">
         <li className="profile">

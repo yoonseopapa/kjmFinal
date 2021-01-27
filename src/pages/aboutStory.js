@@ -13,7 +13,7 @@ const AboutStroy = () => {
 <body>
 <div className="aboutleft"></div>
 <div className="aboutright"></div>
-<nav className="navg1">
+<nav className="navg">
       <ul>
         <NavLink to='/' exact>
         <img className="logoImage" src={imgaLogo} alt=""/>
@@ -35,7 +35,9 @@ const AboutStroy = () => {
         <NavLink to='/treatment' exact>
         <li className="treatment">Anti-Aging</li>
         </NavLink>
-
+        <NavLink to='/special' exact>
+        <li className="special">SPECIAL IN JM</li>
+        </NavLink>
         
         <a href="#aboutStory">
         <li className="profile">

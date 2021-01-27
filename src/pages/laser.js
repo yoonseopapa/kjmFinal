@@ -2,13 +2,6 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import imgaLogo from "../assets/kjmLogo.png";
 import imgaA from "../assets/mainlaser.png";
-import imgaA1 from "../assets/M22.png";
-import imgaA2 from "../assets/white.png";
-import imgaA3 from "../assets/vlaser.jpg";
-import imgaA4 from "../assets/eonjain.png";
-import imgaA5 from "../assets/co2laser.jpg";
-import imgaA6 from "../assets/varasonic.jpg";
-import imgaA7 from "../assets/velalux.jpg";
 
 
 import imgaB from "../assets/freckles.png";
@@ -50,7 +43,9 @@ const Laser = () => {
         <NavLink to='/treatment' exact>
         <li className="treatment">Anti-Aging</li>
         </NavLink>
-
+        <NavLink to='/special' exact>
+        <li className="special">SPECIAL IN JM</li>
+        </NavLink>
         
         <a href="#aboutStory">
         <li className="profile">
@@ -99,20 +94,7 @@ const Laser = () => {
         <div>
           </div>
           </div>
-          <div className="marchine">
-            <img className="firstCardLaser" src={imgaA1} alt=""/>
-            <img className="firstCardLaser1" src={imgaA2} alt=""/>
-            <img className="firstCardLaser2" src={imgaA3} alt=""/>
-            <img className="firstCardLaser3" src={imgaA6} alt=""/>
-            <img className="firstCardLaser4" src={imgaA7} alt=""/>
-            <img className="firstCardLaser5" src={imgaA4} alt=""/>
-            <img className="firstCardLaser6" src={imgaA5} alt=""/>
-    
-            </div>
-            <div className="marchineTitle">
-            <p>"JM 김정민피부과의 프리미엄 레이저"</p> 
-            <h2>멸균소독하고 1인 1기구사용을 바탕으로 위생관리에 철저한</h2> <h3>CLEAN SYSTEM</h3>  <h4>적용</h4> 
-            </div>
+       
  
     </div>
 
