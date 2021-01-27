@@ -6,12 +6,14 @@ import imgaC from "../assets/blog.png";
 import imgaD from "../assets/naver.png";
 import Cases from "../components/cases";
 import Banner from "../components/banner";
+import Popups from "../components/popup";
 import Service from "../components/service"
 import Map from "../pages/map";
 import Footer from "../pages/footer";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import flower from "../assets/palm-4206654_1920.jpg";
 import flowerMain from "../assets/autumn-leaves-5386496_1920.png";
+import Popup from "reactjs-popup";
 
 const Warrap = () => {
 
@@ -22,7 +24,9 @@ const Warrap = () => {
   <div className="wrapper">
     <div className="left"></div>
     <div className="right"></div>
-
+    <div className="popupContents">
+    <Popups></Popups>
+  </div>
     <nav className="navg">
       <ul>
         <NavLink to='/' exact>
