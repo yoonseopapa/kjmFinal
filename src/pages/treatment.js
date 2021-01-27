@@ -4,7 +4,7 @@ import imgaLogo from "../assets/kjmLogo.png";
 import imgaA from "../assets/botox.jpg";
 import imgaB from "../assets/thread.jpg";
 import imgaC from "../assets/hairloss.jpg";
-import playerA from "../assets/skinCare.mp4";
+import playerA from "../assets/treatment.mp4";
 import classes from "../styles/components/BackgroundVideo.scss";
 import Map from "../pages/map";
 import Footer from "../pages/footer";
@@ -66,7 +66,7 @@ const SkinCare = () => {
         </h2>
         </div>
     <div className={classes.Container} >
-            <video autoPlay="autoplay" loop="loop" muted className={classes.Video}>
+            <video autoPlay="autoplay" loop="loop" muted className="skinVideo">
                 <source src={playerA} type="video/mp4" />
             </video>
         </div>

@@ -7,7 +7,7 @@ import imgaA from "../assets/mainlaser.png";
 import imgaB from "../assets/freckles.png";
 import imgaC from "../assets/acne.jpg";
 import imgaD from "../assets/pore.jpg";
-import playerA from "../assets/snowflakes.mp4";
+import playerA from "../assets/laser.mp4";
 import classes from "../styles/components/BackgroundVideo.scss";
 import Map from "../pages/map";
 import Footer from "../pages/footer";
@@ -69,7 +69,7 @@ const Laser = () => {
         </h2>
         </div>
     <div className={classes.Container} >
-    <video autoPlay="autoplay" loop="loop" muted className={classes.Video}>
+    <video autoPlay="autoplay" loop="loop" muted className="skinVideo">
                 <source src={playerA} type="video/mp4" />
             </video>
         </div>
