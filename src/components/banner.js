@@ -1,7 +1,7 @@
 import React from "react";
 // import { ReactComponent as RightArrow } from "../assets/arrow-right.svg";
 import { Carousel } from "react-bootstrap";
-import imgaA from "../assets/winter.jpg";
+import imgaA from "../assets/winter.png";
 import imgaB from "../assets/winter.jpg";
 import imgaC from "../assets/winter.jpg";
 

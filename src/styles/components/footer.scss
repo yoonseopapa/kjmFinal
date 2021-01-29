@@ -19,5 +19,8 @@
 .ment{
   font-size: 12px;
   letter-spacing: 2px;
+  @include media("<=phone") {
+    font-size: 7px;
+  }
 }
 

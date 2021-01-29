@@ -70,6 +70,11 @@ html {
 
 
 .ipsGrid_span7 p{
+  @include media("<=phone") {
+    font-size: 4.2vw;
+ 
+  }
+
   font-family: 'hmuB';
   font-size: 1.2vw;
   color: #303030;
@@ -78,6 +83,13 @@ html {
 }
 
 .ipsGrid_span7 h2,.ipsGrid_span7 strong{
+  @include media("<=phone") {
+    font-family: 'hmuB';
+  font-size: 18px;
+  color: #252525;
+  vertical-align: baseline;
+ 
+  }
   font-family: 'hmuB';
   font-size: 28px;
   color: #252525;
@@ -86,6 +98,14 @@ html {
 
 .ipsType_left2{
   margin-top: 20%;
+}
+
+ipsType_left2 strong{
+  @include media("<=phone") {
+    top: 0%;
+    width: 100%;
+ 
+  }
 }
 
 .ipsType_left1{
@@ -97,9 +117,25 @@ html {
   }
 }
 
+.ipsType_left1 h2{
+  @include media("<=phone") {
+    top: 0%;
+    width: 100%;
+ 
+  }
+}
+.ipsType_left1 strong{
+  @include media("<=phone") {
+    top: 0%;
+    width: 100%;
+ 
+  }
+}
+
+
 .ipsType_right1{
   @include media("<=phone") {
-    top:230%;
+    top: 210%;
     width: 100%;
     position: absolute;
   }
@@ -110,7 +146,7 @@ html {
 
 .ipsType_left2{
   @include media("<=phone") {
-    top: 418%;
+    top: 470%;
     width: 100%;
     position: absolute;
 
@@ -119,7 +155,7 @@ html {
 
 .ipsType_left3{
   @include media("<=phone") {
-    top: 795%;
+    top: 790%;
     width: 100%;
     position: absolute;
 
@@ -130,7 +166,7 @@ html {
 
 .ipsType_right2{
   @include media("<=phone") {
-    top:610%;
+    top: 580%;
     width: 100%;
     position: absolute;
   }
@@ -165,7 +201,7 @@ html {
   position: absolute;
   width:330%;
   margin-left:10%;
-  margin-top: 740%;
+  margin-top: 750%;
   margin-bottom: 30%;
   overflow: hidden;
   box-shadow: 1px 1px 5px 1px #CCCCCC;
@@ -216,7 +252,7 @@ html {
   position: absolute;
   width:330%;
   margin-left:10%;
-  margin-top: 1600%;
+  margin-top: 1700%;
   margin-bottom: 30%;
   overflow: hidden;
   box-shadow: 1px 1px 5px 1px #CCCCCC;
@@ -240,13 +276,17 @@ html {
   position: absolute;
   width:330%;
   margin-left:10%;
-  margin-top: 2100%;
+  margin-top: 2300%;
   margin-bottom: 30%;
   overflow: hidden;
   box-shadow: 1px 1px 5px 1px #CCCCCC;
   }
 
-
+.gs_reveal h2{
+  @include media("<=phone") {
+  top:-59%
+  }
+}
 
   width: 88%;
   margin-left:10%;
@@ -262,9 +302,9 @@ html {
   height: 630px;
   padding-bottom: calc(100% - 10px);
 }
-h2.heading_large {
+h2.heading_large1 {
   @include media("<=phone") {
-  margin-top:10%;
+    margin-top: -80%;
   }
   font-size:1.5em;
 }

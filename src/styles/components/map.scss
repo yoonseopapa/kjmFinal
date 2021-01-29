@@ -10,8 +10,8 @@
   float: left;
   @include media("<=phone") {
     position: absolute;
-    top: 600%;
-    height:100%
+    top: 590%;
+    height: 60%;
   }
 }
 .mapRow{
@@ -21,15 +21,24 @@
 }
 .mapKakao{
   @include media("<=phone") {
+    display: none;
+  }
+  width: 100%;
+
+}
+
+.mapKakaoPhone{
+  @include media("<=phone") {
     position: absolute;
     overflow: hidden;
     left: 3%;
     width: 94%;
     height: 40%;
+    display: block;
   }
-  width: 100%;
-
+  display: none;
 }
+
 .contactMent{
   @include media("<=phone") {
     font-size: 12px;

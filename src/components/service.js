@@ -68,7 +68,7 @@ const Service = () => {
           </div>
         </div>
         <div className="ipsGrid_span7 ipsType_left1">
-          <h2 className="heading_large gs_reveal"><strong>ABOUT STORY</strong>
+          <h2 className="heading_large gs_revealSkin"><strong>ABOUT STORY</strong>
           </h2>
           <p className="gs_reveal"> 정확한 진단과 책임있는 진료를 약속하는 <br/>피부과 전문의 김정민 원장.
           <div className="scrolldownLeft">scroll down</div> </p>
@@ -109,7 +109,7 @@ const Service = () => {
         </div>
   
         <div className="ipsGrid_span7 ipsType_left2">
-        <h2 className="heading_large gs_reveal"><strong>SKIN DISEASE</strong>
+        <h2 className="heading_large1 gs_reveal"><strong>SKIN DISEASE</strong>
         <p>
         피부질환
           <br/>

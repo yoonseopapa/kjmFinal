@@ -146,10 +146,12 @@
           @include media("<=phone") {
             position: relative;
             top: 20%;
+            font-size: 5.4vw;
           }
         }
       }
       .cardMent{
+        
         border: solid 3px;
         height: 100%;
         text-align: center;

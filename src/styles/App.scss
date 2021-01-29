@@ -34,6 +34,7 @@ html {
   .carousel {
     @include media("<=phone") {
       width: 90%;
+      left:0%;
     }
     height: calc(var(--vh, 1vh) * 65);
     width: 78%;
