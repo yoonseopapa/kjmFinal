@@ -119,7 +119,7 @@ const Laser = () => {
     </div>
     <div className="features freckles">
           <div className="leftContents">
-            <img className="firstCardContents" src={imgaC} alt=""/>
+            <img className="firstCardContentsLaer" src={imgaC} alt=""/>
             <div className="storyFeckles">
         <p>ACNE/ ERYTHEMA, PIGMENTATION, SCAR</p>   
         <p>여드름/ 붉은자국, 색소, 여드름흉터 </p>   
