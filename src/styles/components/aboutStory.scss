@@ -52,6 +52,9 @@
 
 
 .scrolldownLeftCon {
+  @include media("<=phone") {
+display: none;
+   }
   color: rgb(0, 0, 0);;
   position: absolute;
   font-size: 10px;
@@ -73,6 +76,11 @@
 }
 
 .gununTitle{
+  @include media("<=phone") {
+    width: 100%; 
+   left:0%;
+   height: 100%;
+   }
   top:13%;
   width: 69.8%; 
   height: 74%; 
@@ -97,6 +105,11 @@
 }
 
 .contentStroy{
+  @include media("<=phone") {
+    top: 32%;
+    width: 100%;
+    left: 0%;
+   }
   width: 32%;
   right: 13%;;
   // left: 10px;
@@ -151,6 +164,9 @@
 }
 
 .rightContents {
+  @include media("<=phone") {
+    top: 250%
+   }
   position: absolute;
   top:220%;
   width: 95%;
@@ -161,6 +177,10 @@
 }
 
 .firstCardContents{
+  @include media("<=phone") {
+    width: 100%; 
+   left:0%;
+   }
   width: 30%;
   margin-left: 10%;
   margin-top: 5%;
@@ -174,6 +194,12 @@
 }
 
 .firstCardProfile{
+  @include media("<=phone") {
+    top: 10%;
+    margin-left: 0%;
+    width: 100%;
+    height: 70%;
+  }
   width: 30%;
   margin-left: 15%;
   margin-top: 10%;
@@ -252,6 +278,14 @@
 
 
 .storyCombination{
+  @include media("<=phone") {
+      /* position: absolute; */
+      margin-top: 100%;
+      /* float: right; */
+      margin-left: 10%;
+      width: 86%;
+      left:0%
+    }
   position: absolute;
   margin-top: 5%;
   float: right;
@@ -276,6 +310,10 @@ color:#252525;
   }
 
   .storyCombination p{
+    @include media("<=phone") {
+      width: 100%; 
+     left:0%;
+     }
     font-family: "hmuB";
     font-size: 15px;
     font-size: 28px;
@@ -430,11 +468,21 @@ color:black;
   margin-left:-2%;
 }
 .storyOne{
-  
+  @include media("<=phone") {
+ 
+    padding-right: 70px;
+    float: initial;
+   }
   padding-right: 70px;
   float: left;
 }
 .storyZero{
+  @include media("<=phone") {
+    width: 100%;
+    top: 100%;
+   font-size: 0.5rem;
+   left:5%;
+  }
   position: absolute;
   margin-top: 10%;
   float: right;
@@ -443,6 +491,11 @@ color:black;
 }
 
 .storyZero strong{
+  @include media("<=phone") {
+ 
+   font-size: 0.9rem;
+left:1%;
+  }
   position: relative;
   font: inherit;
   vertical-align: baseline;
@@ -524,6 +577,10 @@ color:black;
 
 
 .story,.storyZero span, .storyAcne span{
+  @include media("<=phone") {
+ 
+    font-size: 0.9rem;
+   }
     width: 60%;
     font-size: 18px;
     color: #252525;
@@ -610,6 +667,10 @@ color:black;
   text-align: center;
   }
   .storyZero h2{
+    @include media("<=phone") {
+ 
+      font-size: 0.9rem;
+     }
     font-family: "hmuM";
     font-size: 16px;
     color:#6a6a6a;
@@ -648,6 +709,11 @@ color:black;
   }
 
   .storyFeckles p{
+    @include media("<=phone") {
+ 
+      font-size: 0.9rem;
+   
+     }
     font-family: "hmuM";
     font-size: 15px;
     font-size: 28px;
@@ -668,6 +734,11 @@ color:black;
   }
 
   .story p, .storyAcne p{
+    @include media("<=phone") {
+ 
+      font-size: 0.9rem;
+   
+     }
     font-family: "hmuM";
     font-size: 15px;
     font-size: 28px;
@@ -680,6 +751,11 @@ color:black;
  
 
     .storyZero p{
+      @include media("<=phone") {
+ 
+        font-size: 0.9rem;
+     
+       }
       font-family: "hmuM";
       font-size: 15px;
       font-size: 18px;
@@ -691,6 +767,10 @@ color:black;
     }
 
 .title h2{
+  @include media("<=phone") {
+ 
+    font-size: 0.9rem;
+   }
   font-size: 23px;
   position: absolute;
 }
@@ -714,9 +794,12 @@ color:black;
 
 .aboutfooter{
   .footerMain{
-    top: 310%;
+    @include media("<=phone") {
+      top: 646%;
+      height: 27%;
+    }
+    top: 750%;
   }
-  margin-top: 40%;
 }
 
 .aging{
@@ -790,6 +873,9 @@ color:black;
 
 
   .storyThree table {
+    @include media("<=phone") {
+ top:260%;
+     }
     position: absolute;
     top: 170%;
     width: 80%;
@@ -805,6 +891,9 @@ color:black;
   }
 
 .storyThree td{
+  @include media("<=phone") {
+   font-size: 1.8vw;
+  }
   color:black;
   border: 1px solid #444444;
   padding: 10px;

@@ -155,6 +155,10 @@ ul {
 
 
 .leftPink{
+  @include media("<=phone") {
+   display: none;
+
+  }
  // background-color: #accffb;
  background-size: 100% 100%;
  background-image: url("/assets/green-4500359_1920.jpg");

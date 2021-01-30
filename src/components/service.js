@@ -61,7 +61,7 @@ const Service = () => {
         <div className="featured-image-container ipsGrid_span5 gs_reveal gs_reveal_fromLeft">
           <div className="card1" id="card">
           <NavLink to='/aboutStory' exact>
-            <img className="firstCard" width="479" src={imgaA}   alt=""
+            <img className="firstCard" src={imgaA}   alt=""
             />
             </NavLink>
             <div id="laser"></div>
