@@ -95,7 +95,7 @@ const SkinCare = () => {
     </div>
 
     <div className="features acne">
-          <div className="rightContents">
+          <div className="rightContentsLift">
             <img className="firstCardAcneBr" src={imgaC} alt=""/>
             <div className="storyAcneTr">
             <p>BRIGHTENING LIFTING</p>   

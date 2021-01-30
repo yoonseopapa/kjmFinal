@@ -149,7 +149,9 @@ const Service = () => {
       <div className="feature ipsSpacer_bottom_double ipsGrid ipsGrid_collapsePhone">
         <div className="featured-image-container ipsGrid_span5 gs_reveal gs_reveal_fromLeft">
           <div className="card5" id="card4">
+          <NavLink to='/special' exact>
             <img width="479" src={imgaE} alt=""/>
+            </NavLink>
           </div>
         </div>
   

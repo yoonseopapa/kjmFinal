@@ -171,6 +171,10 @@ ul {
 }
 
 .leftBlue{
+  @include media("<=phone") {
+    display: none;
+ 
+   }
   // background-color: #accffb;
   background-size: 100% 100%;
   background-image: url("/assets/flower-5498315_1920.png");
@@ -183,6 +187,10 @@ ul {
 }
 
 .leftGreen{
+  @include media("<=phone") {
+    display: none;
+ 
+   }
   // background-color: #accffb;
   background-size: 100% 100%;
   background-image: url("/assets/branch-309208.png");

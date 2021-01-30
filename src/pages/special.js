@@ -124,8 +124,10 @@ const Special = () => {
         </li>
         </ul>
     </div>
+    <div className="laserfooter">
 <Map/>
 <Footer/>
+</div>
 </body>
 </div>
   );

@@ -96,7 +96,7 @@ const SkinCare = () => {
     </div>
 
     <div className="features acne">
-          <div className="rightContents">
+          <div className="rightContentsCare">
           
          <div className="storyAcne">
         <p>BURN</p>   
@@ -142,7 +142,7 @@ const SkinCare = () => {
     </div>
 
     <div className="features acne">
-          <div className="rightContents">
+          <div className="rightContentsFoot">
             <img className="firstCardtinea" src={imgaD} alt=""/>
             <div className="storyAcneTinea">
             <p>TINEA </p>   
@@ -171,7 +171,7 @@ const SkinCare = () => {
             <div className="storyCornAtopic">
         <p>ATOPIC DERMATITIS/ SEBORRHEIC DERMATITIS</p>   
         <p>아토피피부염 / 지루성피부염</p>   
-        <h1>연령별, 증상별로 원인과 치료법이 다르기 때문에 피부상태에 따른 맞춤치료를 시행합니다.  </h1>
+        <h2>연령별, 증상별로 원인과 치료법이 다르기 때문에 피부상태에 따른 맞춤치료를 시행합니다.  </h2>
         <h2 >아토피피부염은 여러 가지 알레르기 유발물질에 대해 민감하고 큰 이상반응을 나타내면서 심한 
         <br/>가려움증이 동반되는 만성피부질환입니다. 피부 장벽의 기능에 중요한 성분인 세라마이드가 부족
         <br/>하여 피부가 쉽게 민감해지고 건조하여 염증으로 연결될 수 있습니다. 지루성피부염은 만성적인 

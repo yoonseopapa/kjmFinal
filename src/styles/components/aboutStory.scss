@@ -165,7 +165,59 @@ display: none;
 
 .rightContents {
   @include media("<=phone") {
-    top: 260vh;
+    top: 110vh;
+   }
+  position: absolute;
+  top:220%;
+  width: 95%;
+  margin-left: 5%;
+
+  margin-bottom: 10%;
+  transition: 0.3s;
+}
+.rightContentsLift {
+  @include media("<=phone") {
+    top: 250vh;
+   }
+  position: absolute;
+  top:220%;
+  width: 95%;
+  margin-left: 5%;
+
+  margin-bottom: 10%;
+  transition: 0.3s;
+}
+
+.rightContentsCare {
+  @include media("<=phone") {
+    top: 385vh;
+   }
+  position: absolute;
+  top:220%;
+  width: 95%;
+  margin-left: 5%;
+
+  margin-bottom: 10%;
+  transition: 0.3s;
+}
+
+
+.rightContentsCare2 {
+  @include media("<=phone") {
+    top: 460vh;
+   }
+  position: absolute;
+  top:220%;
+  width: 95%;
+  margin-left: 5%;
+
+  margin-bottom: 10%;
+  transition: 0.3s;
+}
+
+.rightContentsFoot {
+  @include media("<=phone") {
+    top: 480vh;
    }
   position: absolute;
   top:220%;
@@ -203,7 +255,14 @@ display: none;
 }
 
 .firstCardContentsFreck{
-  margin-left:15%;
+  
+  @include media("<=phone") {
+    margin-left: 0%;
+    width: 100%;
+    /* left: 0%; */
+    margin-top: -40%;
+}
+  margin-left:15vw;
   width: 70%;
 }
 
@@ -225,6 +284,15 @@ display: none;
   position: absolute;
 }
 .firstCardAcneBr{
+  
+  @include media("<=phone") {
+    /* position: absolute; */
+    margin-top: -20vh;
+/* float: right; */
+margin-left: 0%;
+width: 86%;
+left: 0%;
+}
   width: 30%;
   margin-top:20%;
   position: absolute;
@@ -242,6 +310,14 @@ display: none;
 }
 
 .firstCardtinea{
+  @include media("<=phone") {
+    /* position: absolute; */
+    margin-top: 70vh;
+/* float: right; */
+margin-left: 0%;
+width: 86%;
+left: 0%;
+}
   width: 30%;
   margin-top: 135%;
   position: absolute;
@@ -272,6 +348,10 @@ left: 0%;
 }
 
 .firstCardSecond{
+  @include media("<=phone") {
+    width: 100%;
+    left: 7vw;
+    }
   box-shadow: 0px 0px 10px white;
   width: 35%;
   margin-top:16%;
@@ -281,6 +361,12 @@ left: 0%;
 
 
 .storyAcne{
+  @include media("<=phone") {
+    margin-top: 20vh;
+margin-left: 0%;
+width: 100%;
+left: 0%;
+}
   width: 80%;
   left: 8%;
   position: absolute;
@@ -291,6 +377,14 @@ left: 0%;
 
 
 .storyAcneTr{
+  @include media("<=phone") {
+    /* position: absolute; */
+    margin-top: 12vh;
+/* float: right; */
+margin-left: 0%;
+width: 100%;
+left: 0%;
+}
   left: 5%;
   position: absolute;
   margin-top: 10%;
@@ -301,7 +395,7 @@ left: 0%;
     margin-top: 268vh;
 /* float: right; */
 margin-left: 0%;
-width: 86%;
+width: 100%;
 left: 0%;
 }
   position: absolute;
@@ -376,6 +470,15 @@ color:#252525;
 
     
     .storyAcneTinea{
+      
+    @include media("<=phone") {
+      /* position: absolute; */
+      margin-top: 105vh;
+/* float: right; */
+margin-left: 0%;
+width: 100%;
+left: 0%;
+ }
       left: 5%;
       position: absolute;
       margin-top: 130%;
@@ -387,6 +490,10 @@ color:#252525;
     color:black;
     }
     .storyAcneTinea h1{
+      @include media("<=phone") {
+        width: 100%;
+        font-size: 1rem;
+        }
       color: #000000;
       line-height: 1.7;
       font: inherit;
@@ -395,6 +502,11 @@ color:#252525;
       vertical-align: baseline;
       }
     .storyAcneTinea h2{
+      @include media("<=phone") {
+        width: 100%;
+        font-size: 1rem;
+        }
+  
       color: #6a6a6a;
       line-height: 1.7;
       font: inherit;
@@ -404,6 +516,11 @@ color:#252525;
       }
 
       .storyAcneTinea p{
+        @include media("<=phone") {
+          width: 100%;
+          font-size: 1.2rem;
+          }
+    
         font-family: "hmuM";
         font-size: 1.5vw;
         color: #252525;
@@ -456,7 +573,8 @@ color:black;
 }
 
 
-.story h2, .storyAcne h2,.storyAcneTr h2{
+.story h2, .storyAcne h2{
+
   font-family: "hmuM";
   font-size: 1.2vw;
   color:#6a6a6a;
@@ -464,7 +582,23 @@ color:black;
   vertical-align: baseline;
   }
 
+  .storyAcneTr h2{
+    @include media("<=phone") {
+      width: 100%;
+      font-size: 1rem;
+      }
+
+  font-family: "hmuM";
+  font-size: 1.2vw;
+  color:#6a6a6a;
+  line-height: 1.7;
+  vertical-align: baseline;
+  }
   .story p, .storyAcne p,.storyAcneTr p, .storytightening p{
+    @include media("<=phone") {
+      width: 100%;
+      font-size: 1.8rem;
+      }
     font-family: "hmuM";
     font-size: 15px;
     font-size: 28px;
@@ -473,6 +607,10 @@ color:black;
     }
 
  .storyFreckles p{
+  @include media("<=phone") {
+    width: 100%;
+    font-size: 1.2rem;
+    }
   font-family: "hmuM";
   font-size: 1.5vw;
   color: #252525;
@@ -497,6 +635,14 @@ color:black;
 
 
 .firstCardAtopic{
+  @include media("<=phone") {
+    /* position: absolute; */
+    margin-top: 140vh;
+/* float: right; */
+margin-left: 10%;
+width: 100%;
+left: 0%;
+}
   width: 30%;
   margin-top:260%;
 }
@@ -598,6 +744,15 @@ left: 10%;
 
 
 .storylifting {
+  
+  @include media("<=phone") {
+    /* position: absolute; */
+    margin-top: 40vh;
+/* float: right; */
+margin-left: 10%;
+width: 100%;
+left: 0%;
+}
   width: 60%;
   position: absolute;
   margin-top: 18%;
@@ -606,7 +761,11 @@ left: 10%;
 }
 
 .storylifting p{
-  
+  @include media("<=phone") {
+    width: 100%;
+    font-size: 1.2rem;
+    }
+
   font-family: 'hmuR';
   font-size: 15px;
   font-size: 28px;
@@ -615,6 +774,11 @@ left: 10%;
 }
 
 .storylifting h2{
+  @include media("<=phone") {
+    width: 100%;
+    font-size: 1rem;
+    }
+
   font-size: 1.1vw;
   font-family: 'hmuM';
   color: #6a6a6a;
@@ -624,7 +788,14 @@ left: 10%;
 
 
 .storyBotox {
-  
+  @include media("<=phone") {
+    /* position: absolute; */
+    margin-top: 35vh;
+/* float: right; */
+margin-left: 10%;
+width: 100%;
+left: 0%;
+}
   position: absolute;
   margin-top: 4%;
     float: right;
@@ -632,6 +803,11 @@ left: 10%;
 }
 
 .storyBotox p{
+  @include media("<=phone") {
+    width: 100%;
+    font-size: 1.2rem;
+    }
+
   width: 60%;
   font-family: 'hmuB';
   font-size: 15px;
@@ -641,6 +817,11 @@ left: 10%;
 }
 
 .storyBotox h2{
+  @include media("<=phone") {
+    width: 100%;
+    font-size: 1rem;
+    }
+
   font-family: "hmuM";
   font-size: 1.2vw;
   color:#6a6a6a;
@@ -662,6 +843,14 @@ left: 10%;
 }
 
 .storyCornAtopic{
+  @include media("<=phone") {
+    /* position: absolute; */
+    margin-top: 5vh;
+/* float: right; */
+margin-left: 10%;
+width: 100%;
+left: 0%;
+}
   width: 60%;
   font-size: 18px;
   color: #252525;
@@ -677,6 +866,10 @@ left: 10%;
 }
 
 .storyCornAtopic p{
+  @include media("<=phone") {
+    width: 100%;
+    font-size: 1.1rem;
+    }
   font-family: "hmuM";
   font-size: 15px;
   font-size: 1.5vw;
@@ -684,6 +877,10 @@ left: 10%;
   vertical-align: baseline;
 }
 .storyCornAtopic h2{
+  @include media("<=phone") {
+    width: 100%;
+    font-size: 1rem;
+    }
   font-family: "hmuM";
   font-size: 1.2vw;
   color:#6a6a6a;
@@ -692,6 +889,10 @@ left: 10%;
 }
 
 .storyCornAtopic h1{
+  @include media("<=phone") {
+    width: 100%;
+    font-size: 0.8rem;
+    }
   color: #000000;
   line-height: 1.7;
   font: inherit;
@@ -701,6 +902,13 @@ left: 10%;
 }
 
 .storyCorn{
+  @include media("<=phone") {
+
+    margin-top: 50vh;
+    margin-left: 10%;
+    width: 86%;
+    left: 0%;
+}
   margin-top: 10vh;
   width: 60%;
   font-size: 18px;
@@ -717,6 +925,10 @@ left: 10%;
 }
 
 .storyCorn h2{
+  @include media("<=phone") {
+    width: 100%;
+    font-size: 1rem;
+    }
   font-family: "hmuM";
   font-size: 1.2vw;
   color:#6a6a6a;
@@ -724,6 +936,10 @@ left: 10%;
   vertical-align: baseline;
 }
 .storyCorn p{
+  @include media("<=phone") {
+    width: 100%;
+    font-size: 1.8rem;
+    }
   font-family: "hmuM";
   font-size: 15px;
   font-size: 1.5vw;
@@ -733,6 +949,12 @@ left: 10%;
 
 
 .story h2,.storyAcne h2{
+  
+  @include media("<=phone") {
+    width: 100%;
+    font-size: 1rem;
+    text-align: left;
+    }
   font-family: "hmuM";
   font-size: 1.2vw;
   color:#6a6a6a;
@@ -743,7 +965,7 @@ left: 10%;
   .storyZero h2{
     @include media("<=phone") {
  
-      font-size: 0.9rem;
+      font-size: 1rem;
      }
     font-family: "hmuM";
     font-size: 16px;
@@ -753,6 +975,15 @@ left: 10%;
   }
 
   .storyAcne2 {
+    @include media("<=phone") {
+     /* position: absolute; */
+     margin-top: 55vh;
+     /* float: right; */
+     margin-left: 0%;
+     width: 100%;
+     left: 0%;
+     text-align: left;
+ }
     position: absolute;
     margin-top: 30%;
     text-align: center;
@@ -760,6 +991,10 @@ left: 10%;
   }
  
   .storyAcne2 h2{
+    @include media("<=phone") {
+      width: 100%;
+      font-size: 0.9rem;
+      }
     font-family: "hmuM";
     font-size: 1.2vw;
     color:#6a6a6a;
@@ -768,6 +1003,14 @@ left: 10%;
   }
 
   .storyFreckles2{
+    @include media("<=phone") {
+      /* position: absolute; */
+      margin-top: 35vh;
+/* float: right; */
+margin-left: 0%;
+width: 100%;
+left: 0%;
+ }
     text-align: center;
     position: absolute;
     margin-top: 30%;
@@ -775,6 +1018,11 @@ left: 10%;
   }
 
   .storyFreckles2 h2{
+    @include media("<=phone") {
+      width: 100%;
+      font-size: 1.1rem;
+      }
+
     font-family: "hmuM";
     font-size: 1.2vw;
     color: #6a6a6a;
@@ -810,7 +1058,7 @@ left: 10%;
   .story p, .storyAcne p{
     @include media("<=phone") {
  
-      font-size: 0.9rem;
+      font-size: 1.2rem;
    
      }
     font-family: "hmuM";
@@ -1040,33 +1288,58 @@ left: 10%;
 
 
 .boarView{
+  @include media("<=phone") {
+    margin-top:20vh;
+    width: 100%;
+    margin-left:0%;
+    }
   margin-top:20%;
   width:60%;
   margin-left:20%;
 }
 
 .boarView1{
-
+  @include media("<=phone") {
+    margin-top:3vh;
+    width: 100%;
+    margin-left:0%;
+    }
   width:60%;
   margin-left:20%;
 }
 
 .boarView2{
-
+  @include media("<=phone") {
+    margin-top:3vh;
+    width: 100%;
+    margin-left:0%;
+    }
   width:60%;
   margin-left:20%;
 }
 .boarView3{
-
+  @include media("<=phone") {
+    margin-top:3vh;
+    width: 100%;
+    margin-left:0%;
+    }
   width:60%;
   margin-left:20%;
 }
 .boarView4{
-
+  @include media("<=phone") {
+    margin-top:3vh;
+    width: 100%;
+    margin-left:0%;
+    }
   width:60%;
   margin-left:20%;
 }
+@include media("<=phone") {
 
+  width: 100%;
+  margin-left:0%;
+  }
 .skinVideo{
   width: 100%;
 }
