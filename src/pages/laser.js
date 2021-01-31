@@ -78,7 +78,7 @@ const Laser = () => {
 
     <div className="features aging">
           <div className="leftContents">
-            <img className="firstCardContents" src={imgaA} alt=""/>
+            <img className="firstCardContentsLaser1" src={imgaA} alt=""/>
             <div className="storyCombination">
         <p>COMBINATION TREATMENT PROGRAM</p>   
         <p>복합치료 프로그램</p>   
@@ -99,7 +99,7 @@ const Laser = () => {
     </div>
 
     <div className="features acne">
-          <div className="rightContents">
+          <div className="rightContentsLaser1">
             <img className="firstCardAcneLaser" src={imgaB} alt=""/>
             <div className="storyAcnePigment">
             <p>PIGMENTATION </p>   
@@ -118,7 +118,7 @@ const Laser = () => {
           </div>
     </div>
     <div className="features freckles">
-          <div className="leftContents">
+          <div className="leftContentsLaser">
             <img className="firstCardContentsLaer" src={imgaC} alt=""/>
             <div className="storyFeckles">
         <p>ACNE/ ERYTHEMA, PIGMENTATION, SCAR</p>   

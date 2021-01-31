@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import imgaA from "../assets/popup.jpg";
+import imgaB from "../assets/popup1.jpg";
 const PopUp = ({ idMessage }) => {
   // create state `open` with default as false
   const [open, setOpen] = useState(true);
@@ -22,6 +23,27 @@ const PopUp = ({ idMessage }) => {
         onClick={() => setOpen(!open)}
         type="button"
         className="popupButton"
+        data-toggle="modal"
+        data-target={`#${idMessage}` }
+      >
+       닫기
+      </button>
+        </div>
+      )}
+      {open && (
+        <div
+          className="modal fade"
+          id={idMessage}
+          tabIndex="-1"
+          role="dialog"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+        <img className="popuptest1" src={imgaB} alt=""/>
+        <button
+        onClick={() => setOpen(!open)}
+        type="button"
+        className="popupButton1"
         data-toggle="modal"
         data-target={`#${idMessage}` }
       >

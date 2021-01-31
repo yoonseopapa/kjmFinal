@@ -262,7 +262,7 @@ ul {
   top:317%;
   height: 50%;
   width: 30%;
-  background-image: url("/assets/leaves-5455841_1920.png");
+  // background-image: url("/assets/leaves-5455841_1920.png");
   background-size: 100% 100%;
 }
 
@@ -438,13 +438,12 @@ ul {
 
 .navg ul li {
   display: inline-block;
-  color:#000000;
+  color: #000000;
   text-transform: uppercase;
   letter-spacing: 3px;
-  font-family: 'hmuB';
-  font-size: 18px;
+  font-family: unset;
+  font-size: 1.3rem;
   font-weight: 600;
-  padding: 0 30px;
 }
 
 .navg .logo {
@@ -638,12 +637,13 @@ ul {
 .bottomnav ul a li {
   color: #000000;
   text-transform: uppercase;
-  letter-spacing: 8px;
+  letter-spacing: 2px;
   /* text-shadow: 0 1px white; */
   font-weight: 700;
-  font-family: 'hmuL';
+  font-family: fangsong;
   margin-top: 20px;
   transition: transform 0.3s;
+  font-size: 1.3rem;
   &:hover{
     -webkit-transform: translateY(-100%);
     -moz-transform: translateY(-100%);
@@ -796,4 +796,28 @@ margin-top:100%;
   width: 13%;
   font-size: 10px;
   background-color: rgb(90, 87, 87);
+}
+
+.popupButton1{
+  @include media("<=phone") {
+    position: relative;
+    margin-left:85%;
+     top:-80%;
+    }
+  position: absolute;
+  margin-top: 135%;
+  margin-left: 95%;
+  width: 13%;
+  font-size: 10px;
+  background-color: #5a5757;
+}
+
+.popuptest1{
+  @include media("<=phone") {
+    position: relative;
+    margin-left:0%;
+margin-top:10%;
+    }
+  position: absolute;
+  margin-left: 10%;
 }

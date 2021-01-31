@@ -162,10 +162,31 @@ display: none;
   width: 85%;
   transition: 0.3s;
 }
+.leftContentsLaser {
+  @include media("<=phone") {
+    top: 50vh;
+   }
+  top:100%;
+  position: absolute;
+  width: 85%;
+  transition: 0.3s;
+}
 
-.rightContents {
+.rightContents{
   @include media("<=phone") {
     top: 110vh;
+   }
+  position: absolute;
+  top:220%;
+  width: 95%;
+  margin-left: 5%;
+
+  margin-bottom: 10%;
+  transition: 0.3s;
+}
+.rightContentsLaser1 {
+  @include media("<=phone") {
+    top: 250vh;
    }
   position: absolute;
   top:220%;
@@ -239,13 +260,24 @@ display: none;
   position: absolute;
   z-index: 1;
 }
+.firstCardContentsLaser1{
+  @include media("<=phone") {
+    width: 100%; 
+   left:0%;
+   }
+  width: 30%;
+  margin-left: 10%;
+  margin-top: 5%;
+  position: absolute;
+  z-index: 1;
+}
 
 
 .firstCardContentsLaer{
   @include media("<=phone") {
     width: 100%; 
    left:0%;
-   top: 130vh;
+   top: 20vh;
    }
   width: 30%;
   margin-left: 10%;
@@ -333,7 +365,7 @@ left: 0%;
 .firstCardTightening{
   @include media("<=phone") {
     /* position: absolute; */
-    margin-top: 110vh;
+    margin-top: 240vh;
 /* float: right; */
 margin-left: 0%;
 width: 86%;
@@ -341,7 +373,7 @@ left: 0%;
 }
   box-shadow: 0px 0px 10px white;
   width: 32%;
-  margin-top: 130%;
+  margin-top: 230vh;
   position: absolute;
   left: 53%;
 
@@ -392,14 +424,14 @@ left: 0%;
 .storytightening{
   @include media("<=phone") {
     /* position: absolute; */
-    margin-top: 268vh;
+    margin-top: 274vh;
 /* float: right; */
 margin-left: 0%;
 width: 100%;
 left: 0%;
 }
   position: absolute;
-  margin-top: 134%;
+  margin-top: 230vh;
   width: 53%;
   font-family: 'Clickbluesky';
 }

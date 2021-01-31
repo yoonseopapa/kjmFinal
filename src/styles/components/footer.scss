@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'NanumMyeongjo';
+  src: local('NanumMyeongjo'), url("/fonts/NanumMyeongjo.ttf") format('truetype');
+}
+@font-face {
+  font-family: 'NanumMyeongjoBold';
+  src: local('NanumMyeongjoBold'), url("/fonts/NanumMyeongjoBold.ttf") format('truetype');
+}
+@font-face {
+  font-family: 'NanumMyeongjoExtraBold';
+  src: local('NanumMyeongjoExtraBold'), url("/fonts/NanumMyeongjoExtraBold.ttf") format('truetype');
+}
 .footerMain{
   @include media("<=phone") {
     position: absolute;
@@ -11,7 +23,7 @@
   float: left;
 }
 .footerRow{
-  margin-top: 2%;
+  margin-top: 1.5vh;
   float: left;
   width: 90%;
   margin-left: 5%;
@@ -23,4 +35,19 @@
     font-size: 7px;
   }
 }
+.ment p{
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-family: 'hmuR';
+  color: #d4d4d4;
+}
+.footerHide{
+  float: left;
+  position: absolute;
+  left: 23vw;
+  margin-top: 7vh;
+}
 
+.footerLine{
+  float: left;
+}
